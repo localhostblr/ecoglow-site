@@ -1,0 +1,833 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gift Box — Vegan Soy Candle Set | EcoGlow</title>
+<meta name="description" content="Classic + Mini Candle + Reed Diffuser in a kraft gift box with a handwritten note card. ₹749. 100% vegan soy wax, 8 fragrances, delivered across India.">
+<meta name="theme-color" content="#FBF9F5">
+<meta name="google-site-verification" content="na8Wg6wxPFr9uDnT6cB3LfVi7JSpGcIJ0GptZRxrHWM">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+:root{--ivory:#FBF9F5;--stone:#F5F2EB;--ink:#1C241E;--sage:#7A8B7B;--terra:#C27A56;--terra-d:#A86241;--sand:#E8E4DC;--muted:#5E685F;--ok:#4F7A5A;--err:#B4493A;--r:16px;--sh:0 10px 30px -12px rgba(92,64,40,.18)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--ivory);color:var(--ink);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+h1,h2,h3,.serif{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.15}
+h1{font-size:clamp(2.4rem,5vw,3.9rem)}h2{font-size:clamp(1.8rem,3.4vw,2.5rem)}h3{font-size:1.35rem}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.sec{padding:64px 0}.sec.alt{background:var(--stone)}
+.sec-h{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:28px;flex-wrap:wrap}
+.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:600;color:var(--sage)}
+.muted{color:var(--muted)}.sm{font-size:.85rem}.center{text-align:center}
+.row{display:flex;align-items:center;gap:10px}.sb{justify-content:space-between}.wr{flex-wrap:wrap}
+.announce{background:var(--ink);color:var(--stone);text-align:center;font-size:.78rem;padding:7px 12px;letter-spacing:.03em}
+/* header */
+.hdr{position:sticky;top:0;z-index:40;background:rgba(251,249,245,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--sand)}
+.hdr-in{display:flex;align-items:center;gap:20px;height:70px}
+.logo{display:flex;align-items:center;gap:10px}.logo b{font-family:'Cormorant Garamond',serif;font-size:1.6rem;display:block;line-height:1}.logo small{font-size:.66rem;color:var(--muted);letter-spacing:.02em}
+#nav{display:flex;gap:22px;margin:0 auto;font-size:.9rem;font-weight:500}
+#nav a{padding:6px 0;border-bottom:2px solid transparent}#nav a:hover,#nav a.act{border-color:var(--terra)}
+.util{display:flex;gap:4px}
+.ib{position:relative;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;border:0;background:none;cursor:pointer}
+.ib:hover{background:var(--stone)}
+.ib svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.badge{position:absolute;top:3px;right:2px;min-width:17px;height:17px;border-radius:9px;background:var(--terra);color:#fff;font-size:.65rem;font-weight:700;display:grid;place-items:center;padding:0 4px}
+.badge:empty{display:none}
+.menu{display:none}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--ink);color:var(--ivory);border:1.5px solid var(--ink);border-radius:999px;padding:12px 24px;font-weight:600;font-size:.9rem;cursor:pointer;transition:.2s}
+.btn:hover{background:#2f3b32}.btn.terra{background:var(--terra);border-color:var(--terra)}.btn.terra:hover{background:var(--terra-d)}
+.btn.ghost{background:transparent;color:var(--ink)}.btn.ghost:hover{background:var(--stone)}
+.btn.sm{padding:8px 16px;font-size:.82rem}.btn.block{width:100%}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.link{background:none;border:0;padding:0;color:var(--terra-d);font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.pill{display:inline-block;padding:3px 11px;border-radius:999px;background:var(--stone);border:1px solid var(--sand);font-size:.74rem;font-weight:500}
+.pill.sage{background:#E7ECE6;border-color:#D3DCD2;color:#45574A}.pill.terra{background:#F6E6DC;border-color:#EDCDBA;color:#8C4F31}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{padding:9px 16px;border-radius:999px;border:1.5px solid var(--sand);background:#fff;cursor:pointer;font-size:.86rem;font-weight:500;transition:.15s}
+.chip:hover{border-color:var(--sage)}.chip.on{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
+/* hero */
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center;padding-block:56px 40px}
+.hero p.lead{font-size:1.08rem;color:var(--muted);margin:18px 0 26px;max-width:520px}
+.hero-art{border-radius:28px;overflow:hidden;box-shadow:var(--sh)}
+.vals{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+/* grid & cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}
+.card{position:relative;background:#fff;border:1px solid var(--sand);border-radius:var(--r);overflow:hidden;transition:.25s;display:flex;flex-direction:column}
+.card:hover{box-shadow:var(--sh);transform:translateY(-3px)}
+.card-img{display:block;background:var(--stone)}
+.card-b{padding:16px 16px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-size:1.3rem}.card p{flex:1}
+.price{font-size:1.05rem}.save{font-size:.72rem;color:var(--ok);font-weight:600;margin-left:4px}
+.heart{position:absolute;top:12px;right:12px;width:36px;height:36px;border-radius:50%;border:0;background:rgba(255,255,255,.9);display:grid;place-items:center;cursor:pointer}
+.heart svg{width:18px;height:18px;fill:none;stroke:var(--ink);stroke-width:1.8}.heart.on svg{fill:var(--terra);stroke:var(--terra)}
+.qa{display:flex;gap:6px}
+select,input,textarea{width:100%;padding:11px 13px;border:1.5px solid var(--sand);border-radius:12px;background:#fff;outline:none}
+select:focus,input:focus,textarea:focus{border-color:var(--sage)}
+.qa select{padding:7px 10px;font-size:.82rem;width:auto;flex:1}
+label{font-size:.82rem;font-weight:600;display:block;margin-bottom:5px}
+.fld{margin-bottom:14px}.hint{font-size:.78rem;margin-top:4px}.hint.ok{color:var(--ok)}.hint.err{color:var(--err)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+/* mood spotlight */
+.spot{display:grid;grid-template-columns:280px 1fr;gap:26px;background:#fff;border:1px solid var(--sand);border-radius:22px;padding:24px;margin:22px 0 30px;align-items:center}
+.swatch{width:14px;height:14px;border-radius:50%;display:inline-block;border:1px solid rgba(0,0,0,.08);vertical-align:-2px}
+/* pledge */
+.pledge{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.pl{background:#fff;border:1px solid var(--sand);border-radius:var(--r);padding:22px}
+.pl b{display:block;font-family:'Cormorant Garamond',serif;font-size:1.3rem;margin-bottom:6px}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--sand);border-radius:var(--r);overflow:hidden;margin-top:24px;background:#fff}
+.vs div{padding:18px 22px}.vs div:first-child{background:#EEF1EC}.vs ul{padding-left:18px;margin-top:6px}
+/* product page */
+.pdp{display:grid;grid-template-columns:1fr 1fr;gap:48px;padding:36px 0 20px}
+.pdp-art{border-radius:24px;overflow:hidden;background:var(--stone);position:sticky;top:90px;align-self:start}
+.crumbs{font-size:.8rem;color:var(--muted);margin-bottom:12px}.crumbs a:hover{text-decoration:underline}
+.fgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.fopt{border:1.5px solid var(--sand);background:#fff;border-radius:12px;padding:10px 8px;cursor:pointer;text-align:center;font-size:.8rem;font-weight:600}
+.fopt.on{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.fopt .swatch{display:block;margin:0 auto 5px;width:22px;height:22px}
+.fnote{background:var(--stone);border-radius:12px;padding:12px 14px;margin-top:10px;font-size:.88rem}
+.qty{display:inline-flex;align-items:center;border:1.5px solid var(--sand);border-radius:999px;background:#fff}
+.qty button{width:36px;height:36px;border:0;background:none;cursor:pointer;font-size:1.1rem}.qty span{min-width:26px;text-align:center;font-weight:600}
+details{border-bottom:1px solid var(--sand);padding:14px 0}summary{cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between}
+summary::after{content:'+';font-size:1.2rem;color:var(--sage)}details[open] summary::after{content:'–'}
+details>div,details>p,details>ul{margin-top:10px;color:var(--muted);font-size:.92rem}details ul{padding-left:18px}
+.stat{display:flex;gap:22px;margin:16px 0;padding:14px 0;border-top:1px solid var(--sand);border-bottom:1px solid var(--sand)}
+.stat div b{display:block;font-size:1.05rem}.stat div span{font-size:.75rem;color:var(--muted)}
+/* reviews */
+.rv-wrap{display:grid;grid-template-columns:260px 1fr;gap:36px}
+.bar{display:flex;align-items:center;gap:8px;font-size:.8rem}.bar i{flex:1;height:7px;background:var(--sand);border-radius:4px;overflow:hidden}.bar i b{display:block;height:100%;background:var(--terra)}
+.rv{border-bottom:1px solid var(--sand);padding:16px 0}.stars{color:var(--terra);letter-spacing:2px}
+.empty{background:var(--stone);border:1px dashed #D6CFC2;border-radius:var(--r);padding:28px;text-align:center;color:var(--muted)}
+/* finder */
+.finder{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.box{background:#fff;border:1px solid var(--sand);border-radius:20px;padding:24px}
+.res{display:grid;grid-template-columns:150px 1fr;gap:18px;background:#fff;border:1px solid var(--sand);border-radius:var(--r);overflow:hidden}
+.res .art{background:var(--stone)}.res>div:last-child{padding:16px 16px 16px 0}
+.res.on{border-color:var(--terra);box-shadow:0 0 0 2px #EDCDBA}
+.check{display:flex;align-items:center;gap:8px;font-weight:600;font-size:.86rem;cursor:pointer;margin:0}.check input{width:18px;height:18px;accent-color:var(--terra)}
+.combo-bar{position:sticky;bottom:14px;background:var(--ink);color:var(--ivory);border-radius:18px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;gap:14px;margin-top:22px;flex-wrap:wrap;box-shadow:var(--sh)}
+/* cart */
+.drawer{position:fixed;inset:0;z-index:60;pointer-events:none}
+.drawer .scrim,.modal .scrim{position:absolute;inset:0;background:rgba(28,36,30,.35);opacity:0;transition:.25s}
+.panel{position:absolute;right:0;top:0;bottom:0;width:min(420px,100%);background:var(--ivory);transform:translateX(100%);transition:.3s;display:flex;flex-direction:column}
+.drawer.open{pointer-events:auto}.drawer.open .scrim{opacity:1}.drawer.open .panel{transform:none}
+.panel-h{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;border-bottom:1px solid var(--sand)}
+.panel-b{flex:1;overflow:auto;padding:16px 20px}.panel-f{padding:18px 20px;border-top:1px solid var(--sand);background:#fff}
+.prog{background:var(--stone);border-radius:12px;padding:12px 14px;font-size:.84rem;margin-bottom:14px}
+.prog i{display:block;height:6px;background:var(--sand);border-radius:4px;margin-top:8px;overflow:hidden}.prog i b{display:block;height:100%;background:var(--sage);transition:.3s}
+.line{display:grid;grid-template-columns:72px 1fr auto;gap:12px;padding:14px 0;border-bottom:1px solid var(--sand);align-items:start}
+.line .th{border-radius:12px;overflow:hidden;background:var(--stone)}
+.line h4{font-size:.95rem;font-weight:600}.line .fb{display:flex;gap:4px;flex-wrap:wrap;margin:4px 0 8px}
+.x{background:none;border:0;color:var(--muted);cursor:pointer;font-size:.78rem;text-decoration:underline}
+.sum div{display:flex;justify-content:space-between;padding:4px 0;font-size:.92rem}.sum .tot{font-weight:700;font-size:1.08rem;border-top:1px solid var(--sand);margin-top:6px;padding-top:10px}
+.strike{text-decoration:line-through;color:var(--muted);font-size:.8rem;margin-right:4px}
+.cart-pg{display:grid;grid-template-columns:1.6fr 1fr;gap:36px;padding-block:36px 60px}
+.sticky{position:sticky;top:90px;align-self:start}
+/* checkout */
+.pay{display:grid;gap:10px}.payo{display:flex;gap:12px;align-items:flex-start;border:1.5px solid var(--sand);border-radius:14px;padding:14px;cursor:pointer;background:#fff;margin:0;font-weight:400}
+.payo input{width:18px;height:18px;margin-top:3px;accent-color:var(--terra)}.payo b{display:block}
+.payo:has(input:checked){border-color:var(--ink)}
+/* order */
+.ok-banner{background:#E7ECE6;border:1px solid #D3DCD2;border-radius:20px;padding:24px;display:flex;gap:16px;align-items:center;margin:30px 0 24px}
+.ok-banner .tick{width:46px;height:46px;border-radius:50%;background:var(--ok);color:#fff;display:grid;place-items:center;font-size:1.4rem;flex:none}
+.tl{display:grid;grid-template-columns:repeat(5,1fr);margin:18px 0 8px;position:relative}
+.tl div{text-align:center;font-size:.78rem;position:relative;color:var(--muted)}
+.tl div::before{content:'';display:block;width:18px;height:18px;border-radius:50%;margin:0 auto 8px;background:#fff;border:2px solid var(--sand);position:relative;z-index:1}
+.tl div::after{content:'';position:absolute;top:8px;left:-50%;width:100%;height:2px;background:var(--sand)}
+.tl div:first-child::after{display:none}
+.tl div.done{color:var(--ink);font-weight:600}.tl div.done::before{background:var(--sage);border-color:var(--sage)}.tl div.done::after{background:var(--sage)}
+.olist{display:grid;gap:14px}.ocard{background:#fff;border:1px solid var(--sand);border-radius:var(--r);padding:18px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:center}
+/* modal */
+.modal{position:fixed;inset:0;z-index:70;display:none;place-items:center;padding:16px}
+.modal.open{display:grid}.modal.open .scrim{opacity:1}
+.mbox{position:relative;background:var(--ivory);border-radius:22px;padding:26px;width:min(520px,100%);max-height:92vh;overflow:auto}
+.starpick{display:flex;gap:4px}.starpick button{background:none;border:0;font-size:1.9rem;color:var(--sand);cursor:pointer;padding:0 2px}.starpick button.on{color:var(--terra)}
+/* blog & info */
+.prose{max-width:720px;margin:0 auto;padding:40px 0 70px}.prose h1{margin-bottom:10px}.prose h2{font-size:1.6rem;margin:30px 0 10px}
+.prose p,.prose li{margin-bottom:12px;color:#36403A}.prose ul,.prose ol{padding-left:22px}
+.post{background:#fff;border:1px solid var(--sand);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.post .b{padding:18px}.post h3{margin:6px 0 8px}
+.news{background:var(--ink);color:var(--ivory);border-radius:26px;padding:40px;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.news form{display:flex;gap:8px}.news input{background:transparent;border-color:#45514A;color:var(--ivory)}
+.tabs{display:flex;gap:6px;background:var(--stone);padding:5px;border-radius:999px;width:max-content;max-width:100%;overflow:auto}
+.tabs a{padding:8px 18px;border-radius:999px;font-size:.87rem;font-weight:600;white-space:nowrap}.tabs a.on{background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.filters{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0 26px;align-items:end}.filters .fld{margin:0;min-width:180px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:var(--ink);color:var(--ivory);padding:12px 20px;border-radius:999px;font-size:.88rem;opacity:0;transition:.25s;z-index:80;pointer-events:none}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.ftr{background:var(--stone);border-top:1px solid var(--sand);margin-top:40px}
+.ftr-in{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:28px;padding:48px 20px 28px}
+.ftr h4{font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:10px}.ftr a{display:block;font-size:.88rem;padding:3px 0;color:var(--muted)}.ftr a:hover{color:var(--ink)}
+.ftr-brand{font-size:1.8rem}.ftr-bot{border-top:1px solid var(--sand);padding:16px 20px;font-size:.78rem}
+.note{background:#F6E6DC;border:1px solid #EDCDBA;border-radius:14px;padding:14px 16px;font-size:.88rem}
+@media(max-width:960px){
+  #nav{position:fixed;top:105px;left:0;right:0;background:var(--ivory);flex-direction:column;gap:0;padding:8px 20px 16px;border-bottom:1px solid var(--sand);display:none;margin:0}
+  #nav.open{display:flex}#nav a{padding:12px 0;border-bottom:1px solid var(--sand)}
+  .menu{display:grid}.util{margin-left:auto}
+  .hero,.pdp,.finder,.cart-pg,.rv-wrap,.news,.spot{grid-template-columns:1fr}
+  .pledge{grid-template-columns:1fr 1fr}.ftr-in{grid-template-columns:1fr 1fr}
+  .pdp-art,.sticky{position:static}
+}
+@media(max-width:560px){
+  .logo small{display:none}.two,.vs{grid-template-columns:1fr}.pledge{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:repeat(2,1fr)}.res{grid-template-columns:110px 1fr}
+  .sec{padding:44px 0}.news{padding:26px}.news form{flex-direction:column}
+  .tl div{font-size:.66rem}
+}
+.ph{display:block;width:100%;aspect-ratio:5/4;object-fit:cover;background:var(--stone)}.ph.wide{aspect-ratio:11/9}.line .ph{aspect-ratio:1}.res .art .ph{height:100%;aspect-ratio:auto;min-height:150px}
+.card-img{overflow:hidden}.card-img .ph{transition:transform .5s}.card:hover .card-img .ph{transform:scale(1.04)}
+</style>
+<meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://ecoglow-seo-site-1.vercel.app/product/candle-gift-box"><meta property="og:site_name" content="EcoGlow"><meta property="og:type" content="product"><meta property="og:title" content="Gift Box — Vegan Soy Candle Set | EcoGlow"><meta property="og:description" content="Classic + Mini Candle + Reed Diffuser in a kraft gift box with a handwritten note card. ₹749. 100% vegan soy wax, 8 fragrances, delivered across India."><meta property="og:url" content="https://ecoglow-seo-site-1.vercel.app/product/candle-gift-box"><meta property="og:image" content="https://images.unsplash.com/photo-1602607203588-d6d0eda790e3?auto=format&amp;fit=crop&amp;w=1200&amp;h=630&amp;q=75"><meta property="og:locale" content="en_IN"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Gift Box — Vegan Soy Candle Set | EcoGlow"><meta name="twitter:description" content="Classic + Mini Candle + Reed Diffuser in a kraft gift box with a handwritten note card. ₹749. 100% vegan soy wax, 8 fragrances, delivered across India."><meta name="twitter:image" content="https://images.unsplash.com/photo-1602607203588-d6d0eda790e3?auto=format&amp;fit=crop&amp;w=1200&amp;h=630&amp;q=75"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"Gift Box","sku":"EG-GIFT","image":["https://images.unsplash.com/photo-1602607203588-d6d0eda790e3?auto=format&fit=crop&w=1200&h=630&q=75"],"description":"Classic + Mini Candle + Reed Diffuser in a kraft gift box with a handwritten note card. 1 × Classic Soy Candle, 150g. 1 × Mini Soy Candle, 80g. 1 × Reed Diffuser, 100ml. Ribbed kraft gift box with cotton ribbon. Handwritten note card — add your message at checkout.","brand":{"@type":"Brand","name":"EcoGlow"},"offers":{"@type":"Offer","url":"https://ecoglow-seo-site-1.vercel.app/product/candle-gift-box","priceCurrency":"INR","price":"749","availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition","shippingDetails":{"@type":"OfferShippingDetails","shippingRate":{"@type":"MonetaryAmount","value":"49","currency":"INR"},"shippingDestination":{"@type":"DefinedRegion","addressCountry":"IN"},"deliveryTime":{"@type":"ShippingDeliveryTime","handlingTime":{"@type":"QuantitativeValue","minValue":1,"maxValue":2,"unitCode":"DAY"},"transitTime":{"@type":"QuantitativeValue","minValue":3,"maxValue":7,"unitCode":"DAY"}}}}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Shop","item":"https://ecoglow-seo-site-1.vercel.app/shop"},{"@type":"ListItem","position":2,"name":"Gift Box","item":"https://ecoglow-seo-site-1.vercel.app/product/candle-gift-box"}]}</script></head>
+<body>
+<div class="announce">100% vegan soy wax · Hand-poured · Free delivery on orders ₹999+</div>
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <a href="/" class="logo" aria-label="EcoGlow home">
+      <svg viewBox="0 0 32 32" width="34" height="34" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="#1C241E"></circle><path d="M16 6c4 5 5 9 0 15-5-6-4-10 0-15z" fill="#C27A56"></path><path d="M16 12c1.8 2.5 2 4.4 0 7-2-2.6-1.8-4.5 0-7z" fill="#F5E2C4"></path><rect x="10" y="22" width="12" height="4" rx="1.5" fill="#F5F2EB"></rect></svg>
+      <span><b>EcoGlow</b><small>Home fragrance, chosen for your mood</small></span>
+    </a>
+    <nav id="nav">
+      <a href="/shop">Shop All</a>
+      <a href="/shop/sets">Curated Sets</a>
+      <a href="/finder">Find Your Fragrance</a>
+      <a href="/about">About</a>
+      <a href="/blog">Blog</a>
+      <a href="/faq">FAQ</a>
+    </nav>
+    <div class="util">
+      <a href="/orders" class="ib" aria-label="My orders" title="My orders"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a>
+      <a href="/wishlist" class="ib" aria-label="Wishlist" title="Wishlist"><svg viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7z"></path></svg><span id="wc" class="badge"></span></a>
+      <button class="ib" data-a="cart-open" aria-label="Cart" title="Cart"><svg viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><path d="M3 6h18"></path><path d="M16 10a4 4 0 0 1-8 0"></path></svg><span id="cc" class="badge"></span></button>
+      <button class="ib menu" data-a="menu" aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"></path></svg></button>
+    </div>
+  </div>
+</header>
+
+<main id="app"><div class="wrap"><div class="pdp">
+  <div class="pdp-art"><img class="ph" src="https://images.unsplash.com/photo-1602607202950-a06a2a03cb9d?auto=format&amp;fit=crop&amp;w=640&amp;h=512&amp;q=72" alt="Classic soy candle in an amber glass jar" loading="lazy" data-fa="%5B%22candle-gift-box%22%2Cnull%5D"></div>
+  <div>
+   <p class="crumbs"><a href="/shop">Shop</a> / <a href="/shop/sets">Curated Sets</a> / Gift Box</p>
+   <div class="row wr"><span class="pill terra">3-piece set</span><span class="pill sage">100% vegan</span><span class="sm muted">No reviews yet</span></div>
+   <h1 style="margin:10px 0 6px">Gift Box</h1>
+   <div class="row" style="font-size:1.4rem"><b>₹749</b><span class="save" style="font-size:.85rem">You save ₹148</span></div>
+   <p class="muted" style="margin-top:8px">Classic + Mini Candle + Reed Diffuser in a kraft gift box with a handwritten note card.</p>
+   <div class="stat"><div><b>1 ×</b><span>Classic Soy Candle (150g)</span></div><div><b>1 ×</b><span>Mini Soy Candle (80g)</span></div><div><b>1 ×</b><span>Reed Diffuser (100ml)</span></div></div>
+   <div class="fld"><label>Scent 1 — Classic Soy Candle (150g)</label><select data-slot="0"><option value="">Choose a fragrance…</option><option value="lavender">Lavender — Relaxation</option><option value="vanilla">Vanilla — Cozy</option><option value="rose">Rose — Romantic</option><option value="sandalwood">Sandalwood — Calm</option><option value="citrus">Citrus — Energetic</option><option value="jasmine">Jasmine — Elegant</option><option value="ocean">Ocean Breeze — Fresh</option><option value="lemongrass">Lemongrass — Focus</option></select></div><div class="fld"><label>Scent 2 — Mini Soy Candle (80g)</label><select data-slot="1"><option value="">Choose a fragrance…</option><option value="lavender">Lavender — Relaxation</option><option value="vanilla">Vanilla — Cozy</option><option value="rose">Rose — Romantic</option><option value="sandalwood">Sandalwood — Calm</option><option value="citrus">Citrus — Energetic</option><option value="jasmine">Jasmine — Elegant</option><option value="ocean">Ocean Breeze — Fresh</option><option value="lemongrass">Lemongrass — Focus</option></select></div><div class="fld"><label>Scent 3 — Reed Diffuser (100ml)</label><select data-slot="2"><option value="">Choose a fragrance…</option><option value="lavender">Lavender — Relaxation</option><option value="vanilla">Vanilla — Cozy</option><option value="rose">Rose — Romantic</option><option value="sandalwood">Sandalwood — Calm</option><option value="citrus">Citrus — Energetic</option><option value="jasmine">Jasmine — Elegant</option><option value="ocean">Ocean Breeze — Fresh</option><option value="lemongrass">Lemongrass — Focus</option></select></div>
+   <div class="row wr" style="margin:20px 0">
+    <span class="qty"><button data-a="pq" data-d="-1" aria-label="Decrease">−</button><span>1</span><button data-a="pq" data-d="1" aria-label="Increase">+</button></span>
+    <button class="btn" data-a="padd" style="flex:1">Add to cart · ₹749</button>
+    <button class="heart " style="position:static;border:1.5px solid var(--sand)" data-a="wish" data-id="candle-gift-box" aria-label="Save to wishlist"><svg viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7z"></path></svg></button>
+   </div>
+   <button class="btn terra block" data-a="pbuy">Buy now</button>
+   <p class="sm muted center" style="margin-top:10px">Flat ₹49 delivery · Free on orders ₹999+ · Ships in 3–7 business days</p>
+   <div style="margin-top:20px">
+    <details open=""><summary>Product specifications</summary><ul><li>1 × Classic Soy Candle, 150g</li><li>1 × Mini Soy Candle, 80g</li><li>1 × Reed Diffuser, 100ml</li><li>Ribbed kraft gift box with cotton ribbon</li><li>Handwritten note card — add your message at checkout</li></ul></details>
+    <details><summary>Burn &amp; care instructions</summary><ul><li>First burn: let the wax melt all the way to the edge (2–3 hours) to prevent tunneling.</li><li>Trim the wick to 5mm before every burn.</li><li>Burn for no more than 4 hours at a time.</li><li>Keep away from drafts, children and pets. Never leave a burning candle unattended.</li><li>Reed diffuser: flip the reeds once a week to refresh the scent.</li></ul></details>
+    <details><summary>Delivery &amp; returns</summary><p>Flat ₹49 delivery across India, free on orders of ₹999 and above. Delivered in 3–7 business days. If anything arrives damaged, message us within 48 hours of delivery with a photo. <a class="link" href="/delivery">Full policy</a></p></details>
+   </div>
+  </div></div>
+  <section class="sec" style="padding-top:30px"><h2 style="margin-bottom:22px">Verified reviews</h2>
+   <div class="empty">No reviews yet. Only verified purchasers can review this product after delivery.</div>
+   <p class="sm muted" style="margin-top:14px">Bought this? Once your order is delivered, open it in <a href="/orders" class="link">My Orders</a> to write a review.</p>
+  </section></div></main>
+
+<footer class="ftr">
+  <div class="wrap ftr-in">
+    <div>
+      <p class="serif ftr-brand">EcoGlow</p>
+      <p class="muted">Hand-poured, 100% vegan soy candles and reed diffusers. Home fragrance, chosen for your mood.</p>
+      <p class="sm" style="margin-top:12px"><a href="mailto:teamecoglow@gmail.com" style="display:inline;padding:0">teamecoglow@gmail.com</a><br><a href="tel:+916366051216" style="display:inline;padding:0">+91 63660 51216</a></p>
+    </div>
+    <div><h4>Shop</h4><a href="/shop/single">Candles &amp; Diffusers</a><a href="/shop/sets">Curated Sets</a><a href="/finder">Find Your Fragrance</a><a href="/wishlist">Wishlist</a></div>
+    <div><h4>Help</h4><a href="/delivery">Delivery &amp; Returns</a><a href="/faq">FAQ</a><a href="/contact">Contact</a><a href="/orders">Track my order</a></div>
+    <div><h4>Learn</h4><a href="/about">Our Story</a><a href="/blog">Candle Care Blog</a><a href="/privacy">Privacy Policy</a><a href="/terms">Terms &amp; Conditions</a></div>
+  </div>
+  <div class="wrap ftr-bot muted">© <span id="yr">2026</span> EcoGlow · Prices in INR · Flat ₹49 delivery across India, free on orders ₹999+ · Photos: Unsplash</div>
+</footer>
+
+<div id="drawer" class="drawer" aria-hidden="true"><div class="scrim" data-a="cart-close"></div><aside class="panel" id="drawer-panel"></aside></div>
+<div id="modal" class="modal"></div>
+<div id="toast" class="toast" role="status"></div>
+<script>
+'use strict';
+/* =========================================================
+   EcoGlow — store front. Edit CONFIG + catalog below.
+   ========================================================= */
+const CONFIG = {
+  site: 'https://ecoglow-seo-site-1.vercel.app',  // your live address, no trailing slash
+  gaId: '',         // Google Analytics 4 ID, e.g. 'G-XXXXXXXXXX'
+  adsId: '',        // Google Ads tag ID, e.g. 'AW-123456789'
+  adsLabel: '',     // Google Ads purchase conversion label
+
+  email: 'teamecoglow@gmail.com',        // e.g. 'hello@ecoglow.in'  -> enables contact form + newsletter
+  whatsapp: '916366051216',     // e.g. '919876543210' (country code, no +) -> orders are sent to you on WhatsApp
+  upi: '',
+  phone: '+91 63660 51216',          // e.g. 'ecoglow@okaxis' -> enables "Pay by UPI" at checkout
+  deliveryFee: 49,
+  freeAbove: 999,
+  comboOff: 0.10
+};
+
+/* ---------------- CATALOG ---------------- */
+const F = [
+  {id:'lavender',name:'Lavender',mood:'Relaxation',space:'Bedroom',occasion:'Bedtime',note:'Soft, powdery florals that slow a room down.',color:'#B7A6D3',fmt:'classic',kw:['relax','sleep','bed','calm','night','stress','anxi','rest','unwind','insomnia','peace']},
+  {id:'vanilla',name:'Vanilla',mood:'Cozy',space:'Living Room',occasion:'Warm evenings',note:'Sweet, milky warmth for a comfortable room.',color:'#E6CF9F',fmt:'classic',kw:['cozy','cosy','warm','comfort','living','sweet','winter','snug','hygge','family']},
+  {id:'rose',name:'Rose',mood:'Romantic',space:'Bedroom',occasion:'Self-care',note:'Full floral bloom, gentle and a little indulgent.',color:'#E3A9A8',fmt:'classic',kw:['romant','love','date','self','care','bath','flower','indulg','pamper','anniversary']},
+  {id:'sandalwood',name:'Sandalwood',mood:'Calm',space:'Meditation Corner',occasion:'Meditation',note:'Woody and grounded, sophisticated without being heavy.',color:'#C9A27A',fmt:'mini',kw:['meditat','yoga','ground','calm','wood','spirit','prayer','pooja','puja','mindful','breath']},
+  {id:'citrus',name:'Citrus',mood:'Energetic',space:'Home Office',occasion:'Work & study',note:'Bright peel and zest that wakes a space up.',color:'#F0BE4E',fmt:'mini',kw:['energ','morning','study','wake','bright','orange','lemon','happy','uplift','kitchen','motivat']},
+  {id:'jasmine',name:'Jasmine',mood:'Elegant',space:'Living Room',occasion:'Evening hosting',note:'Uplifting white florals with an evening mood.',color:'#EFE3C2',fmt:'classic',kw:['elegan','host','guest','party','dinner','evening','floral','mogra','festive','diwali','gift']},
+  {id:'ocean',name:'Ocean Breeze',mood:'Fresh',space:'Bathroom',occasion:'Everyday',note:'Clean, airy and salt-washed.',color:'#9CC6CF',fmt:'diffuser',kw:['fresh','clean','bathroom','air','sea','beach','breeze','laundry','everyday','toilet','entry']},
+  {id:'lemongrass',name:'Lemongrass',mood:'Focus',space:'Home Office',occasion:'Deep work',note:'Sharp green freshness that clears the head.',color:'#B9C77A',fmt:'diffuser',kw:['focus','concentrat','deep','work','office','clear','desk','product','green','exam']}
+];
+const P = [
+  {id:'mini',type:'single',name:'Mini Soy Candle',size:'80g',price:199,slots:['mini'],stat:[['~18 hrs','Burn time'],['80g','Vegan soy wax'],['Ceramic','Reusable vessel']],
+   short:'A low-commitment way to try a fragrance in smaller spaces.',spaces:['Bathroom','Home Office','Meditation Corner'],
+   specs:['100% vegan soy wax — no beeswax, no paraffin','Lead-free natural cotton wick','Hand-poured into a reusable off-white ceramic vessel','Burn time approx. 18 hours','Net weight 80g']},
+  {id:'classic',type:'single',name:'Classic Soy Candle',size:'150g',price:299,slots:['classic'],stat:[['~35 hrs','Burn time'],['150g','Vegan soy wax'],['Medium','Room size']],
+   short:'The everyday candle for living rooms or bedrooms — even scent throw across a medium room.',spaces:['Living Room','Bedroom'],
+   specs:['100% vegan soy wax — no beeswax, no paraffin','Lead-free natural cotton wick','Amber glass jar with lid, reusable once finished','Burn time approx. 35 hours','Even scent throw across a medium room','Net weight 150g']},
+  {id:'diffuser',type:'single',name:'Reed Diffuser',size:'100ml',price:399,slots:['diffuser'],stat:[['~8 weeks','Longevity'],['100ml','Fragrance oil'],['Flame-free','Always on']],
+   short:'Continuous, always-on fragrance for entryways and bathrooms. No flame needed.',spaces:['Bathroom','Entryway','Home Office'],
+   specs:['Flame-free, continuous fragrance','Natural rattan reeds','Refillable frosted glass bottle','Lasts approx. 8 weeks','100ml']},
+  {id:'duo',type:'set',name:'EcoGlow Duo',price:549,slots:['classic','classic'],short:'2 × Classic Soy Candles (150g each). Pick both fragrances.',spaces:['Living Room','Bedroom'],
+   specs:['2 × Classic Soy Candle, 150g each','Approx. 35 hours burn time per candle','You choose both fragrances']},
+  {id:'moodset',type:'set',name:'Mood Set',price:599,slots:['classic','diffuser'],short:'1 × Classic Candle (150g) + 1 × Reed Diffuser (100ml). Flame and flame-free.',spaces:['Living Room','Bedroom','Bathroom'],
+   specs:['1 × Classic Soy Candle, 150g','1 × Reed Diffuser, 100ml','You choose both fragrances']},
+  {id:'discovery',type:'set',name:'Discovery Box',price:699,distinct:true,slots:['mini','mini','mini'],short:'3 × Mini Soy Candles (80g each) in three different fragrances.',spaces:['Bathroom','Home Office','Meditation Corner','Gifting'],
+   specs:['3 × Mini Soy Candle, 80g each','Approx. 18 hours burn time per candle','Choose 3 different fragrances','Packed in a gift-ready discovery box']},
+  {id:'gift',type:'set',name:'Gift Box',price:749,slots:['classic','mini','diffuser'],short:'Classic + Mini Candle + Reed Diffuser in a kraft gift box with a handwritten note card.',spaces:['Gifting','Living Room','Bedroom'],
+   specs:['1 × Classic Soy Candle, 150g','1 × Mini Soy Candle, 80g','1 × Reed Diffuser, 100ml','Ribbed kraft gift box with cotton ribbon','Handwritten note card — add your message at checkout']},
+  {id:'home',type:'set',name:'Home Set',price:849,best:'Best value per gram',slots:['classic','classic','diffuser'],short:'2 × Classic Candles (150g) + 1 × Reed Diffuser (100ml). Scent the whole home.',spaces:['Living Room','Bedroom','Bathroom','Entryway'],
+   specs:['2 × Classic Soy Candle, 150g each','1 × Reed Diffuser, 100ml','You choose all 3 fragrances']}
+];
+const SLUG={mini:'mini-soy-candle',classic:'classic-soy-candle',diffuser:'reed-diffuser',duo:'ecoglow-duo',moodset:'mood-set',discovery:'discovery-box',gift:'candle-gift-box',home:'home-set'};
+P.forEach(p=>p.slug=SLUG[p.id]);
+const purl=(id,f)=>'/product/'+SLUG[id]+(f?'?f='+f:'');
+const UNIT = {mini:199,classic:299,diffuser:399};
+const UNAME = {mini:'Mini Soy Candle (80g)',classic:'Classic Soy Candle (150g)',diffuser:'Reed Diffuser (100ml)'};
+P.forEach(p=>{const sum=p.slots.reduce((s,k)=>s+UNIT[k],0);p.save=Math.max(0,sum-p.price)});
+const NEEDS = [['Deep sleep',['lavender']],['Work desk focus',['lemongrass','citrus']],['Cozy living room',['vanilla','jasmine']],['Meditation & yoga',['sandalwood']],['Self-care evening',['rose','lavender']],['Hosting guests',['jasmine','vanilla']],['Fresh bathroom',['ocean']],['Morning energy',['citrus','lemongrass']]];
+const STATES = ['Andaman & Nicobar','Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chandigarh','Chhattisgarh','Dadra & Nagar Haveli and Daman & Diu','Delhi','Goa','Gujarat','Haryana','Himachal Pradesh','Jammu & Kashmir','Jharkhand','Karnataka','Kerala','Ladakh','Lakshadweep','Madhya Pradesh','Maharashtra','Manipur','Meghalaya','Mizoram','Nagaland','Odisha','Puducherry','Punjab','Rajasthan','Sikkim','Tamil Nadu','Telangana','Tripura','Uttar Pradesh','Uttarakhand','West Bengal'];
+const STEPS = ['Placed','Packed','Shipped','Out for delivery','Delivered'];
+
+/* ---------------- HELPERS ---------------- */
+const $ = s=>document.querySelector(s);
+const inr = n=>'₹'+Math.round(n).toLocaleString('en-IN');
+const esc = s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fr = id=>F.find(f=>f.id===id)||F[0];
+const gp = id=>P.find(p=>p.id===id||p.slug===id);
+const fmtDate = d=>new Date(d).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'});
+function addBiz(d,n){d=new Date(d);while(n>0){d.setDate(d.getDate()+1);if(d.getDay()!==0&&d.getDay()!==6)n--}return d}
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),2200)}
+const ICON = {heart:'<svg viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7z"/></svg>'};
+
+/* ---------------- STORE (localStorage) ---------------- */
+const BLANK = ()=>({cart:[],wish:[],orders:[],reviews:[],profile:{},gift:''});
+function load(){try{return Object.assign(BLANK(),JSON.parse(localStorage.getItem('ecoglow')||'{}'))}catch(e){return BLANK()}}
+const S = load();
+function save(){try{localStorage.setItem('ecoglow',JSON.stringify(S))}catch(e){}updateBadges()}
+function updateBadges(){const n=S.cart.reduce((s,l)=>s+l.qty,0);$('#cc').textContent=n||'';$('#wc').textContent=S.wish.length||''}
+function totals(lines){
+  lines=lines||S.cart;
+  const subtotal=lines.reduce((s,l)=>s+l.list*l.qty,0);
+  const comboSavings=lines.reduce((s,l)=>s+(l.list-l.unit)*l.qty,0);
+  const after=subtotal-comboSavings;
+  const free=after>=CONFIG.freeAbove;
+  const deliveryFee=lines.length&&!free?CONFIG.deliveryFee:0;
+  return {subtotal,comboSavings,deliveryFee,total:after+deliveryFee,free,after};
+}
+function addToCart(pid,frags,qty){
+  const p=gp(pid),key=pid+'|'+frags.join(',');const ex=S.cart.find(l=>l.key===key);
+  if(ex)ex.qty+=qty;else S.cart.push({key,pid,name:p.name,frags,qty,list:p.price,unit:p.price});
+  save();track('add_to_cart',p);
+}
+function addCombo(parts){
+  const list=parts.reduce((s,x)=>s+UNIT[x.pid],0),unit=Math.round(list*(1-CONFIG.comboOff));
+  const key='combo|'+parts.map(x=>x.pid+':'+x.frag).join(',');const ex=S.cart.find(l=>l.key===key);
+  if(ex)ex.qty++;else S.cart.push({key,pid:'combo',name:'Custom Fragrance Combo',combo:parts,frags:parts.map(x=>x.frag),qty:1,list,unit});
+  save();
+}
+function revStats(pid){const l=S.reviews.filter(r=>r.pid===pid);const n=l.length;const avg=n?l.reduce((s,r)=>s+r.rating,0)/n:0;const dist=[5,4,3,2,1].map(s=>l.filter(r=>r.rating===s).length);return {l,n,avg,dist}}
+const stars = r=>'★★★★★'.slice(0,Math.round(r))+'<span style="color:var(--sand)">'+'★★★★★'.slice(0,5-Math.round(r))+'</span>';
+
+/* ---------------- ART (inline SVG illustrations) ---------------- */
+const flame=s=>`<g transform="scale(${s})"><ellipse cx="0" cy="-14" rx="18" ry="24" fill="#F8D98E" opacity=".28"/><path d="M0-27C7-17 8-8 0 0-8-8-7-17 0-27Z" fill="#E9963B"/><path d="M0-18C3-12 3-7 0-3-3-7-3-12 0-18Z" fill="#FFF3CC"/></g>`;
+const G=(x,y,s,inner)=>`<g transform="translate(${x} ${y}) scale(${s})">${inner}</g>`;
+function miniSvg(c){return `<rect x="-38" y="-72" width="76" height="72" rx="15" fill="#F4EFE6" stroke="#DCD3C3"/><path d="M-36-40h72" stroke="#E8E0D2" stroke-width="2"/><ellipse cx="0" cy="-72" rx="36" ry="7.5" fill="${c}"/><ellipse cx="-6" cy="-73" rx="18" ry="3" fill="#fff" opacity=".35"/><line x1="0" y1="-72" x2="0" y2="-80" stroke="#3A2F25" stroke-width="2"/>${G(0,-80,1,flame(.75))}`}
+function classicSvg(c){return `<rect x="-50" y="-112" width="100" height="112" rx="16" fill="#B87333" opacity=".92"/><rect x="-44" y="-106" width="14" height="94" rx="7" fill="#fff" opacity=".18"/><ellipse cx="0" cy="-104" rx="44" ry="8" fill="${c}"/><ellipse cx="-8" cy="-105" rx="20" ry="3" fill="#fff" opacity=".35"/><rect x="-36" y="-72" width="72" height="44" rx="4" fill="#FBF6EC"/><text x="0" y="-52" font-family="Georgia,serif" font-size="13" text-anchor="middle" fill="#1C241E">EcoGlow</text><text x="0" y="-39" font-family="Arial" font-size="5.2" letter-spacing=".8" text-anchor="middle" fill="#7A8B7B">VEGAN SOY CANDLE</text><line x1="0" y1="-104" x2="0" y2="-112" stroke="#3A2F25" stroke-width="2"/>${G(0,-112,1,flame(.85))}`}
+function diffSvg(c){return `${[-34,-20,-8,6,18,32].map((dx,i)=>`<line x1="${dx/6}" y1="-112" x2="${dx}" y2="${-240+(i%2)*14}" stroke="#A47C52" stroke-width="2.6" stroke-linecap="round"/>`).join('')}<rect x="-13" y="-124" width="26" height="22" rx="4" fill="#8A6A48"/><rect x="-42" y="-106" width="84" height="106" rx="20" fill="#E8EEEC" stroke="#D2DAD7"/><path d="M-42-52h84v32a20 20 0 0 1-20 20h-44a20 20 0 0 1-20-20z" fill="${c}" opacity=".6"/><rect x="-34" y="-98" width="12" height="80" rx="6" fill="#fff" opacity=".5"/><rect x="-26" y="-86" width="52" height="26" rx="3" fill="#FBF6EC"/><text x="0" y="-70" font-family="Georgia,serif" font-size="10" text-anchor="middle" fill="#1C241E">EcoGlow</text>`}
+const ITEM={mini:miniSvg,classic:classicSvg,diffuser:diffSvg};
+function scene(inner,bg){return `<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" role="img"><rect width="400" height="320" fill="${bg||'#F5F2EB'}"/><circle cx="300" cy="80" r="110" fill="#E7ECE6" opacity=".7"/><path d="M0 268h400v52H0z" fill="#E4DED2"/><rect x="40" y="262" width="320" height="14" rx="4" fill="#ECE6DA"/>${inner}</svg>`}
+function leaves(x,y,s){return G(x,y,s,`<path d="M0 0C5-40 0-80 10-130" stroke="#7A8B7B" stroke-width="2" fill="none"/>${[[2,-20,-30],[4,-45,25],[3,-65,-35],[6,-88,30],[7,-108,-25],[10,-128,10]].map(([lx,ly,r])=>`<ellipse cx="${lx}" cy="${ly}" rx="9" ry="6" transform="rotate(${r} ${lx} ${ly})" fill="#9AAE9C"/>`).join('')}`)}
+const DEF={mini:['lavender'],classic:['vanilla'],diffuser:['ocean'],duo:['vanilla','rose'],moodset:['lavender','ocean'],discovery:['citrus','rose','lemongrass'],gift:['jasmine','sandalwood','ocean'],home:['vanilla','lavender','ocean']};
+/* Real photos (Unsplash licence: free for commercial use). Swap any ID for your own product shots. */
+const PHOTO={hero:'photo-1602607203475-c5e99918dfc5',about:'photo-1603905179139-db12ab535ca9',
+ mini:'photo-1603897076223-17f346f02a03',classic:'photo-1602607202950-a06a2a03cb9d',diffuser:'photo-1750429431308-96eb0e8b6f6f',
+ duo:'photo-1620915789294-c972b1b1af7c',moodset:'photo-1660853142320-33ee03871bc9',discovery:'photo-1603905179139-db12ab535ca9',
+ gift:'photo-1602607203588-d6d0eda790e3',home:'photo-1660853142034-3fc45895499a',combo:'photo-1660853142320-33ee03871bc9',
+ tunnel:'photo-1643716991951-285e23e35961',wick:'photo-1620915789294-c972b1b1af7c',pairings:'photo-1659440508855-2d0db5654ae6',vegan:'photo-1603905179139-db12ab535ca9'};
+const ALT={hero:'Vegan soy candle in an amber glass jar on a travertine stone',about:'Hand-poured soy candles in ceramic vessels',mini:'Mini soy candle in a ceramic vessel',classic:'Classic soy candle in an amber glass jar',diffuser:'Glass reed diffuser with natural rattan reeds',duo:'Amber jar soy candle being lit',moodset:'Soy candle and reed diffuser together',discovery:'Three mini soy candles in ceramic vessels',gift:'Soy candles with a kraft gift box',home:'Reed diffuser and candle set',combo:'Candle and diffuser combo',tunnel:'Lit candle next to an open book',wick:'Lighting a soy candle wick',pairings:'Reed diffusers in a living room',vegan:'Vegan soy wax candles'};
+function art(pid,frags){
+  const k=PHOTO[pid]?pid:'classic',wide=pid==='hero'||pid==='about';
+  const fa=encodeURIComponent(JSON.stringify([pid,frags||null]));
+  return `<img class="ph${wide?' wide':''}" src="https://images.unsplash.com/${PHOTO[k]}?auto=format&fit=crop&w=${wide?1100:640}&h=${wide?900:512}&q=72" alt="${ALT[k]||'EcoGlow candle'}" loading="${wide?'eager':'lazy'}" data-fa="${fa}">`;
+}
+/* if a photo can't load (offline, blocked), show the drawn illustration instead */
+document.addEventListener('error',e=>{const t=e.target;if(t.tagName==='IMG'&&t.dataset.fa){const [p,f]=JSON.parse(decodeURIComponent(t.dataset.fa));const d=document.createElement('div');d.innerHTML=svgArt(p,f);t.replaceWith(d.firstElementChild)}},true);
+function svgArt(pid,frags){
+  if(pid==='hero'||pid==='about')return heroArt();
+  let c=(frags&&frags.length?frags:(DEF[pid]||['vanilla'])).map(id=>fr(id).color);
+  const p=gp(pid);
+  if(pid==='combo'){const parts=frags.parts;const n=parts.length;return scene(parts.map((x,i)=>G(200+(i-(n-1)/2)*(n>2?100:120),264,n>2?.85:1,ITEM[x.pid](fr(x.frag).color))).join(''))}
+  if(!p)return scene('');
+  const sl=p.slots,n=sl.length;
+  if(n===1)return scene(leaves(320,262,.9)+G(195,264,sl[0]==='mini'?1.7:sl[0]==='classic'?1.35:1.0,ITEM[sl[0]](c[0])));
+  if(pid==='gift'){return scene(G(125,226,.85,classicSvg(c[0]||c[0]))+G(200,226,.95,miniSvg(c[1]||c[0]))+G(278,226,.75,diffSvg(c[2]||c[0]))+`<rect x="58" y="214" width="284" height="56" rx="6" fill="#C9A47A"/><rect x="58" y="214" width="284" height="10" fill="#B8925F"/><rect x="190" y="214" width="20" height="56" fill="#F3EBDD"/><text x="200" y="252" font-family="Georgia,serif" font-size="11" text-anchor="middle" fill="#5A4127" transform="translate(-60 0)">EcoGlow</text>`)}
+  const xs=n===2?[140,262]:[100,200,300],sc=n===2?1.05:.9;
+  return scene(sl.map((k,i)=>G(xs[i],264,k==='mini'?sc*1.3:sc,ITEM[k](c[i]||c[0]))).join(''));
+}
+function heroArt(){return `<svg viewBox="0 0 600 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="EcoGlow soy candle on a travertine pedestal"><defs><linearGradient id="hb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6EFE3"/><stop offset="1" stop-color="#EADFCD"/></linearGradient><radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFE7B5" stop-opacity=".9"/><stop offset="1" stop-color="#FFE7B5" stop-opacity="0"/></radialGradient></defs><rect width="600" height="520" fill="url(#hb)"/><path d="M150 520V200a150 150 0 0 1 300 0v320z" fill="#F3ECDF"/><path d="M0 0l260 520H120L0 280z" fill="#fff" opacity=".22"/><circle cx="300" cy="250" r="150" fill="url(#glow)"/><path d="M60 420c80-30 170-10 240 10s160 20 240-15v105H60z" fill="#E9E1D3"/><path d="M40 440c120-20 200 30 300 25s150-30 220-20v75H40z" fill="#DED4C3" opacity=".7"/><rect x="190" y="372" width="220" height="70" rx="6" fill="#E4D9C6"/><rect x="190" y="372" width="220" height="10" fill="#D8CBB5"/><path d="M205 395h40M300 410h70M220 425h30" stroke="#CDBFA7" stroke-width="2"/>${G(300,374,2.1,classicSvg('#EFE3C2'))}${G(445,374,1.3,miniSvg('#B7A6D3'))}<g transform="translate(110 372)"><path d="M-22 0h44l-6-70h-32z" fill="#F4EFE6" stroke="#DCD3C3"/></g>${leaves(108,305,1.5)}${leaves(118,305,1.2)}</svg>`}
+
+/* ---------------- CONTENT ---------------- */
+const BLOG = [
+  {slug:'candle-tunneling',title:'Why your candle tunnels — and how to stop it',date:'2026-10-02',art:['tunnel'],ex:'That hollow ring down the middle of a candle has one main cause: the first burn. Here is how to get a full melt pool every time.',
+   body:`<p>Tunneling is when a candle burns straight down the centre and leaves a thick wall of unused wax around the edge. It wastes fragrance and shortens burn time — and it almost always starts on day one.</p><h2>Wax has memory</h2><p>Soy wax tends to melt back to the same boundary it reached on its first burn. If you blow it out after 20 minutes, the melt pool never reaches the edges, and every burn after follows that smaller circle.</p><h2>The first-burn rule</h2><p>On the first light, let the candle burn until the melted wax reaches the edge of the jar. As a rough guide, that is about one hour per 2.5 cm (1 inch) of jar diameter — usually 2–3 hours for a Classic Soy Candle.</p><h2>Already tunneling?</h2><ul><li>Wrap the top of the jar loosely with foil, leaving the centre open, and burn for an hour. The trapped heat melts the walls back down.</li><li>Never burn for more than 4 hours at a time.</li><li>Keep the candle away from fans and open windows so it melts evenly.</li></ul>`},
+  {slug:'wick-trimming',title:'The 5mm rule: why wick trimming matters',date:'2026-10-09',art:['wick'],ex:'A ten-second habit that gives you a cleaner flame, less soot and a longer-lasting candle.',
+   body:`<p>An untrimmed wick is the main reason a candle flickers, smokes or leaves black marks on the jar. Trimming before every burn takes seconds.</p><h2>How short?</h2><p>Trim the cotton wick to about <b>5mm</b> before each burn. A wick cutter is easiest, but small scissors work too. Remove the trimmed bits from the wax.</p><h2>Why it works</h2><ul><li>A shorter wick draws up less fuel, so the flame stays calm and steady.</li><li>Less excess fuel means less soot.</li><li>A steady flame melts the wax evenly, which helps the fragrance release properly.</li></ul><h2>Signs to trim mid-burn</h2><p>If the flame grows tall, flickers or mushrooms at the tip, blow it out, let it cool, trim, and relight.</p>`},
+  {slug:'aromatherapy-pairings',title:'Room-by-room fragrance pairings',date:'2026-10-16',art:['pairings'],ex:'Which scent belongs where? A simple guide to matching fragrance to the room and the moment.',
+   body:`<p>The right fragrance depends on what a room is for. Here is how we think about our eight scents.</p><h2>Bedroom</h2><p><b>Lavender</b> for winding down at bedtime, or <b>Rose</b> for a slower self-care evening. A Classic Soy Candle suits a medium-sized bedroom.</p><h2>Living room</h2><p><b>Vanilla</b> for cozy evenings, <b>Jasmine</b> when guests are coming over.</p><h2>Home office</h2><p><b>Citrus</b> for a bright start, <b>Lemongrass</b> for deep work. A Reed Diffuser keeps things flame-free near your desk.</p><h2>Bathroom & entryway</h2><p><b>Ocean Breeze</b> in a Reed Diffuser gives clean, always-on freshness.</p><h2>Meditation corner</h2><p><b>Sandalwood</b> in a Mini Soy Candle — grounded and woody, sized for a small space.</p><p>Not sure? Try the <a href="/finder" class="link">Fragrance Finder</a>.</p>`},
+  {slug:'why-soy-is-vegan',title:'Why we use 100% vegan soy wax',date:'2026-10-23',art:['vegan'],ex:'Soy versus paraffin versus beeswax — what is actually in your candle, and why it matters.',
+   body:`<p>Every EcoGlow candle is made with 100% soy wax — a plant-based wax made from soybean oil. That makes our candles vegan: no beeswax and no animal-derived ingredients.</p><h2>Soy vs paraffin</h2><p>Paraffin is a by-product of petroleum refining. Soy wax comes from a renewable crop, and it burns at a lower temperature, which helps a candle last longer.</p><h2>Soy vs beeswax</h2><p>Beeswax is natural, but it is an animal product. Soy gives us a clean, creamy finish without it.</p><h2>The rest of the candle</h2><ul><li>Lead-free cotton wicks</li><li>Reusable ceramic and glass vessels</li><li>Kraft-paper gift packaging</li></ul>`}
+];
+const FAQ = [
+  ['Products',[['Are EcoGlow candles vegan?','Yes. Every candle uses 100% soy wax — a plant-based wax. We use no beeswax and no animal-derived ingredients.'],['What sizes do you offer?','Mini Soy Candle (80g, ~18 hrs), Classic Soy Candle (150g, ~35 hrs) and Reed Diffuser (100ml, ~8 weeks).'],['Can I reuse the containers?','Yes. Once the candle is finished, scoop out any leftover wax, wash with warm soapy water and reuse the vessel.']]],
+  ['Burn Care',[['How long should the first burn be?','Until the melt pool reaches the edge of the jar — usually 2–3 hours. This prevents tunneling.'],['How short should I trim the wick?','About 5mm before every burn.'],['How long can I burn it at once?','No more than 4 hours at a time. Always keep candles in sight and away from children, pets and drafts.']]],
+  ['Combos & Sets',[['How does the Custom Combo discount work?','Pick 2 or 3 recommended items in the Fragrance Finder and add them as a combo — you get 10% off those items automatically.'],['Can I choose the fragrances in a set?','Yes, every set lets you pick the scent for each piece. The Discovery Box needs three different fragrances.'],['Can I add a gift message?','Yes — add a handwritten gift note for free from your cart.']]],
+  ['Shipping',[['How much is delivery?','A flat ₹49 anywhere in India, and free on orders of ₹999 and above.'],['How long does delivery take?','Usually 3–7 business days after your order is placed.'],['Do you offer Cash on Delivery?','Yes, Cash on Delivery is available at checkout.']]],
+  ['Support',[['My order arrived damaged — what do I do?','Message us within 48 hours of delivery with your order ID and a photo of the damage, and we will sort it out.'],['How do I leave a review?','Reviews come only from verified purchasers. Once your order shows Delivered, open it in My Orders and tap “Write a review”.']]]
+];
+
+/* ---------------- VIEW STATE ---------------- */
+let homeF='lavender', shopF={space:'',max:'',frag:''}, sel={id:null,frags:[],qty:1}, finder={needs:[],text:'',res:null,picks:[]}, rvDraft={rating:0};
+
+/* ---------------- COMPONENTS ---------------- */
+function card(p,frag){
+  const r=revStats(p.id),w=S.wish.includes(p.id),fq=frag?'?f='+frag:'';
+  return `<article class="card">
+  <a href="${purl(p.id)}${fq}" class="card-img" aria-label="${p.name}">${art(p.id,frag&&p.type==='single'?[frag]:null)}</a>
+  <button class="heart ${w?'on':''}" data-a="wish" data-id="${p.id}" aria-label="Save to wishlist">${ICON.heart}</button>
+  <div class="card-b">
+    <div class="row sb wr"><span class="pill ${p.type==='set'?'terra':''}">${p.type==='set'?p.slots.length+'-piece set':p.size}</span><span class="muted sm">${r.n?`<span class="stars">★</span> ${r.avg.toFixed(1)} (${r.n})`:'No reviews yet'}</span></div>
+    <h3><a href="${purl(p.id)}${fq}">${p.name}</a></h3>
+    <p class="muted sm">${p.short}</p>
+    <div class="row sb"><b class="price">${inr(p.price)}</b>${p.save?`<span class="save">Save ${inr(p.save)}</span>`:p.best?`<span class="save">${p.best}</span>`:''}</div>
+    ${p.type==='single'?`<div class="qa"><select data-qf="${p.id}" aria-label="Fragrance">${F.map(f=>`<option value="${f.id}" ${f.id===frag?'selected':''}>${f.name}</option>`).join('')}</select><button class="btn sm" data-a="quick" data-id="${p.id}">Add to cart</button></div>`:`<a class="btn sm ghost" href="${purl(p.id)}">Choose scents</a>`}
+  </div></article>`;
+}
+function lineHtml(l,small){
+  const thumb=l.combo?art('combo',{parts:l.combo}):art(l.pid,l.frags);
+  return `<div class="line"><a href="${l.combo?'/finder':purl(l.pid)}" class="th">${thumb}</a>
+  <div><h4>${esc(l.name)}</h4>
+   ${l.combo?`<div class="muted sm">${l.combo.map(x=>UNAME[x.pid]+' · '+fr(x.frag).name).join('<br>')}</div>`:`<div class="fb">${l.frags.map(f=>`<span class="pill sage"><span class="swatch" style="background:${fr(f).color}"></span> ${fr(f).name}</span>`).join('')}</div>`}
+   <div class="row" style="margin-top:6px"><span class="qty"><button data-a="lq" data-k="${esc(l.key)}" data-d="-1" aria-label="Decrease">−</button><span>${l.qty}</span><button data-a="lq" data-k="${esc(l.key)}" data-d="1" aria-label="Increase">+</button></span><button class="x" data-a="lx" data-k="${esc(l.key)}">Remove</button></div>
+  </div>
+  <div style="text-align:right">${l.list!==l.unit?`<div class="strike">${inr(l.list*l.qty)}</div>`:''}<b>${inr(l.unit*l.qty)}</b>${l.combo?'<div class="save">10% combo off</div>':''}</div></div>`;
+}
+function progress(){
+  const t=totals();if(!S.cart.length)return '';
+  const left=CONFIG.freeAbove-t.after,pct=Math.min(100,t.after/CONFIG.freeAbove*100);
+  return `<div class="prog">${t.free?'🎉 You’ve unlocked <b>free delivery</b>!':`Add <b>${inr(left)}</b> more for <b>free delivery</b>`}<i><b style="width:${pct}%"></b></i></div>`;
+}
+function summary(t){return `<div class="sum"><div><span>Subtotal</span><span>${inr(t.subtotal)}</span></div>${t.comboSavings?`<div style="color:var(--ok)"><span>Combo discount</span><span>−${inr(t.comboSavings)}</span></div>`:''}<div><span>Delivery</span><span>${t.deliveryFee?inr(t.deliveryFee):'Free'}</span></div><div class="tot"><span>Total</span><span>${inr(t.total)}</span></div></div>`}
+function renderDrawer(){
+  const t=totals();
+  $('#drawer-panel').innerHTML=`<div class="panel-h"><h3>Your cart</h3><button class="ib" data-a="cart-close" aria-label="Close">✕</button></div>
+  <div class="panel-b">${S.cart.length?progress()+S.cart.map(l=>lineHtml(l)).join(''):`<div class="empty"><p class="serif" style="font-size:1.4rem;color:var(--ink)">Your cart is empty</p><p class="sm">Not sure where to start? Let us match a scent to your mood.</p><a href="/finder" class="btn sm" style="margin-top:12px">Find your fragrance</a></div>`}</div>
+  ${S.cart.length?`<div class="panel-f">${summary(t)}<a href="/checkout" class="btn terra block" style="margin-top:12px">Checkout · ${inr(t.total)}</a><a href="/cart" class="btn ghost block sm" style="margin-top:8px">View cart & add gift note</a></div>`:''}`;
+}
+function openDrawer(){renderDrawer();$('#drawer').classList.add('open')}
+function closeDrawer(){$('#drawer').classList.remove('open')}
+function modal(html){$('#modal').innerHTML=`<div class="scrim" data-a="mclose"></div><div class="mbox">${html}</div>`;$('#modal').classList.add('open')}
+function closeModal(){$('#modal').classList.remove('open');$('#modal').innerHTML=''}
+function statusIdx(o){const days=(Date.now()-o.at)/864e5;return [0,1,2,4,5].filter(d=>days>=d).length-1}
+
+/* ---------------- VIEWS ---------------- */
+const V = {};
+V.home=()=>{
+  const f=fr(homeF);
+  const rv=S.reviews.slice(-3).reverse();
+  return `<div class="wrap hero">
+  <div><p class="eyebrow">Hand-poured · 100% vegan soy wax</p><h1>Home fragrance,<br><em>chosen for your mood</em></h1>
+   <p class="lead">Eight mood-led fragrances in vegan soy candles and flame-free reed diffusers — made to make a room feel the way you want it to.</p>
+   <div class="row wr"><a href="/finder" class="btn terra">Find your fragrance</a><a href="/shop" class="btn ghost">Shop all</a></div>
+   <div class="vals">${['100% Vegan Soy Wax','Hand-poured','Clean Burning','Eco-conscious'].map(v=>`<span class="pill sage">✓ ${v}</span>`).join('')}</div></div>
+  <div class="hero-art">${art('hero')}</div></div>
+
+  <section class="sec alt"><div class="wrap">
+   <div class="sec-h"><div><p class="eyebrow">Browse by mood · space · occasion</p><h2>What do you want the room to feel like?</h2></div></div>
+   <div class="chips">${F.map(x=>`<button class="chip ${x.id===homeF?'on':''}" data-a="homef" data-f="${x.id}">${x.mood}</button>`).join('')}</div>
+   <div class="spot"><div style="border-radius:16px;overflow:hidden">${art(f.fmt,[f.id])}</div>
+    <div><p class="eyebrow">${f.mood}</p><h2>${f.name}</h2><p class="muted" style="margin:8px 0 14px">${f.note}</p>
+    <div class="row wr" style="margin-bottom:18px"><span class="pill">Space: ${f.space}</span><span class="pill">Occasion: ${f.occasion}</span><span class="pill terra">We suggest: ${UNAME[f.fmt]}</span></div>
+    <a class="btn" href="${purl(f.fmt,f.id)}">Shop ${f.name}</a></div></div>
+   <div class="grid">${P.filter(p=>p.type==='single').map(p=>card(p,homeF)).join('')}</div>
+  </div></section>
+
+  <section class="sec"><div class="wrap">
+   <div class="sec-h"><div><p class="eyebrow">Curated sets</p><h2>Bundle up & save</h2><p class="muted">Pick every scent yourself. The Gift Box comes in kraft packaging with a handwritten note card.</p></div><a href="/shop/sets" class="link">See all sets →</a></div>
+   <div class="grid">${P.filter(p=>p.type==='set').slice(0,4).map(p=>card(p)).join('')}</div>
+  </div></section>
+
+  <section class="sec alt"><div class="wrap">
+   <div class="sec-h"><div><p class="eyebrow">Our eco pledge</p><h2>What goes into an EcoGlow candle</h2></div></div>
+   <div class="pledge">
+    <div class="pl"><b>100% vegan soy wax</b><span class="muted sm">Plant-based wax from soybeans. No beeswax, no paraffin, no animal ingredients.</span></div>
+    <div class="pl"><b>Lead-free cotton wicks</b><span class="muted sm">Natural cotton for a steady, clean flame when trimmed to 5mm.</span></div>
+    <div class="pl"><b>Reusable vessels</b><span class="muted sm">Ceramic and glass containers made to be washed and kept.</span></div>
+    <div class="pl"><b>Hand-poured</b><span class="muted sm">Poured in small batches, with kraft-paper gift packaging.</span></div>
+   </div>
+   <div class="vs"><div><b>Soy wax</b><ul class="sm"><li>Made from a renewable plant crop</li><li>Burns at a lower temperature, so it lasts longer</li><li>Vegan</li></ul></div><div><b>Paraffin wax</b><ul class="sm muted"><li>A by-product of petroleum refining</li><li>Non-renewable source</li><li>What most mass-market candles use</li></ul></div></div>
+  </div></section>
+
+  <section class="sec"><div class="wrap">
+   <div class="sec-h"><div><p class="eyebrow">Verified reviews</p><h2>From people who bought them</h2></div></div>
+   ${rv.length?`<div class="grid">${rv.map(r=>`<div class="box"><div class="stars">${stars(r.rating)}</div><h3 style="margin:6px 0">${esc(r.title)}</h3><p class="muted sm">${esc(r.comment)}</p><p class="sm" style="margin-top:10px"><b>${esc(r.author)}</b> · ${gp(r.pid).name} · Verified purchase</p></div>`).join('')}</div>`
+   :`<div class="empty">No reviews yet. Only verified purchasers can review a product, after their order is delivered.</div>`}
+  </div></section>
+
+  <section class="wrap" style="padding-bottom:40px"><div class="news"><div><h2>Candle care, in your inbox</h2><p style="opacity:.8;margin-top:8px">Burn guides, fragrance pairings and new scents — no spam.</p></div>
+   <form id="news"><input type="email" name="email" required placeholder="Your email address" aria-label="Email"><button class="btn terra">Subscribe</button></form></div></section>`;
+};
+V.shop=(tab)=>{
+  tab=tab||'all';
+  let list=P.filter(p=>tab==='all'||(tab==='sets'?p.type==='set':p.type==='single'));
+  if(shopF.space)list=list.filter(p=>p.spaces.includes(shopF.space));
+  if(shopF.max)list=list.filter(p=>p.price<=+shopF.max);
+  const spaces=[...new Set(P.flatMap(p=>p.spaces))];
+  const ff=shopF.frag?fr(shopF.frag):null;
+  return `<div class="wrap" style="padding:36px 20px 60px">
+  <p class="eyebrow">Shop</p><h1 style="margin-bottom:18px">${tab==='sets'?'Curated Sets':tab==='single'?'Candles & Diffusers':'Shop All'}</h1>
+  <div class="tabs"><a href="/shop" class="${tab==='all'?'on':''}">All</a><a href="/shop/single" class="${tab==='single'?'on':''}">Individual Products</a><a href="/shop/sets" class="${tab==='sets'?'on':''}">Curated Sets</a></div>
+  <div class="filters">
+   <div class="fld"><label>Mood / fragrance</label><select data-sf="frag"><option value="">Any</option>${F.map(f=>`<option value="${f.id}" ${shopF.frag===f.id?'selected':''}>${f.mood} — ${f.name}</option>`).join('')}</select></div>
+   <div class="fld"><label>Room / space</label><select data-sf="space"><option value="">Any room</option>${spaces.map(s=>`<option ${shopF.space===s?'selected':''}>${s}</option>`).join('')}</select></div>
+   <div class="fld"><label>Price</label><select data-sf="max"><option value="">Any price</option>${[299,399,599,749,849].map(m=>`<option value="${m}" ${shopF.max==m?'selected':''}>Up to ${inr(m)}</option>`).join('')}</select></div>
+   ${shopF.frag||shopF.space||shopF.max?`<button class="link" data-a="sclear">Clear filters</button>`:''}
+  </div>
+  ${ff?`<p class="note" style="margin-bottom:20px"><span class="swatch" style="background:${ff.color}"></span> <b>${ff.name}</b> — ${ff.note} Best for: ${ff.space}, ${ff.occasion.toLowerCase()}. Every product below can be made in ${ff.name}.</p>`:''}
+  ${list.length?`<div class="grid">${list.map(p=>card(p,shopF.frag||null)).join('')}</div>`:`<div class="empty">Nothing matches those filters. <button class="link" data-a="sclear">Clear filters</button></div>`}
+  </div>`;
+};
+V.product=(id,q)=>{
+  const p=gp(id);if(!p)return V.notfound();
+  if(sel.id!==id){sel={id,frags:p.slots.map(()=>''),qty:1};const qf=q.get('f');if(qf&&F.some(f=>f.id===qf))sel.frags[0]=qf;if(p.type==='single'&&!sel.frags[0])sel.frags[0]='lavender'}
+  const r=revStats(id),w=S.wish.includes(id);
+  const picker=p.type==='single'
+   ?`<label>Choose your fragrance</label><div class="fgrid">${F.map(f=>`<button class="fopt ${sel.frags[0]===f.id?'on':''}" data-a="pickf" data-f="${f.id}"><span class="swatch" style="background:${f.color}"></span>${f.name}</button>`).join('')}</div>
+     ${(()=>{const f=fr(sel.frags[0]);return `<div class="fnote"><b>${f.name}</b> <span class="pill sage">${f.mood}</span><br><span class="muted">${f.note} Best for: ${f.space} · ${f.occasion}</span></div>`})()}`
+   :p.slots.map((s,i)=>`<div class="fld"><label>Scent ${i+1} — ${UNAME[s]}</label><select data-slot="${i}"><option value="">Choose a fragrance…</option>${F.map(f=>`<option value="${f.id}" ${sel.frags[i]===f.id?'selected':''} ${p.distinct&&sel.frags.includes(f.id)&&sel.frags[i]!==f.id?'disabled':''}>${f.name} — ${f.mood}</option>`).join('')}</select>${sel.frags[i]?`<p class="hint muted">${fr(sel.frags[i]).note}</p>`:''}</div>`).join('');
+  return `<div class="wrap"><div class="pdp">
+  <div class="pdp-art">${art(id,sel.frags.filter(Boolean).length?sel.frags.map((f,i)=>f||DEF[id][i]||'vanilla'):null)}</div>
+  <div>
+   <p class="crumbs"><a href="/shop">Shop</a> / <a href="/shop/${p.type==='set'?'sets':'single'}">${p.type==='set'?'Curated Sets':'Candles & Diffusers'}</a> / ${p.name}</p>
+   <div class="row wr"><span class="pill ${p.type==='set'?'terra':''}">${p.type==='set'?p.slots.length+'-piece set':p.size}</span><span class="pill sage">100% vegan</span>${r.n?`<span class="sm"><span class="stars">${stars(r.avg)}</span> ${r.avg.toFixed(1)} · ${r.n} review${r.n>1?'s':''}</span>`:'<span class="sm muted">No reviews yet</span>'}</div>
+   <h1 style="margin:10px 0 6px">${p.name}</h1>
+   <div class="row" style="font-size:1.4rem"><b>${inr(p.price)}</b>${p.save?`<span class="save" style="font-size:.85rem">You save ${inr(p.save)}</span>`:''}${p.best?`<span class="save" style="font-size:.85rem">${p.best}</span>`:''}</div>
+   <p class="muted" style="margin-top:8px">${p.short}</p>
+   ${p.stat?`<div class="stat">${p.stat.map(s=>`<div><b>${s[0]}</b><span>${s[1]}</span></div>`).join('')}</div>`:`<div class="stat">${p.slots.map(s=>`<div><b>1 ×</b><span>${UNAME[s]}</span></div>`).join('')}</div>`}
+   ${picker}
+   <div class="row wr" style="margin:20px 0">
+    <span class="qty"><button data-a="pq" data-d="-1" aria-label="Decrease">−</button><span>${sel.qty}</span><button data-a="pq" data-d="1" aria-label="Increase">+</button></span>
+    <button class="btn" data-a="padd" style="flex:1">Add to cart · ${inr(p.price*sel.qty)}</button>
+    <button class="heart ${w?'on':''}" style="position:static;border:1.5px solid var(--sand)" data-a="wish" data-id="${id}" aria-label="Save to wishlist">${ICON.heart}</button>
+   </div>
+   <button class="btn terra block" data-a="pbuy">Buy now</button>
+   <p class="sm muted center" style="margin-top:10px">Flat ₹49 delivery · Free on orders ₹999+ · Ships in 3–7 business days</p>
+   <div style="margin-top:20px">
+    <details open><summary>Product specifications</summary><ul>${p.specs.map(s=>`<li>${s}</li>`).join('')}</ul></details>
+    <details><summary>Burn & care instructions</summary><ul><li>First burn: let the wax melt all the way to the edge (2–3 hours) to prevent tunneling.</li><li>Trim the wick to 5mm before every burn.</li><li>Burn for no more than 4 hours at a time.</li><li>Keep away from drafts, children and pets. Never leave a burning candle unattended.</li><li>Reed diffuser: flip the reeds once a week to refresh the scent.</li></ul></details>
+    <details><summary>Delivery & returns</summary><p>Flat ₹49 delivery across India, free on orders of ₹999 and above. Delivered in 3–7 business days. If anything arrives damaged, message us within 48 hours of delivery with a photo. <a class="link" href="/delivery">Full policy</a></p></details>
+   </div>
+  </div></div>
+  <section class="sec" style="padding-top:30px"><h2 style="margin-bottom:22px">Verified reviews</h2>
+   ${r.n?`<div class="rv-wrap"><div><p class="serif" style="font-size:3rem">${r.avg.toFixed(1)}</p><div class="stars">${stars(r.avg)}</div><p class="sm muted" style="margin-bottom:12px">${r.n} verified review${r.n>1?'s':''}</p>${r.dist.map((c,i)=>`<div class="bar"><span>${5-i}★</span><i><b style="width:${c/r.n*100}%"></b></i><span>${c}</span></div>`).join('')}</div>
+     <div>${r.l.slice().reverse().map(x=>`<div class="rv"><div class="row sb wr"><span class="stars">${stars(x.rating)}</span><span class="sm muted">${fmtDate(x.date)}</span></div><h3 style="margin:4px 0">${esc(x.title)}</h3><p class="muted">${esc(x.comment)}</p><p class="sm" style="margin-top:6px"><b>${esc(x.author)}</b> · Verified purchase · Scent throw: ${esc(x.throw)}</p></div>`).join('')}</div></div>`
+   :`<div class="empty">No reviews yet. Only verified purchasers can review this product after delivery.</div>`}
+   <p class="sm muted" style="margin-top:14px">Bought this? Once your order is delivered, open it in <a href="/orders" class="link">My Orders</a> to write a review.</p>
+  </section></div>`;
+};
+function findScents(needs,text){
+  const sc={},why={};
+  needs.forEach(n=>{const m=NEEDS.find(x=>x[0]===n);if(m)m[1].forEach((id,i)=>{sc[id]=(sc[id]||0)+3-i;(why[id]=why[id]||[]).push(`you picked “${n}”`)})});
+  const words=(text.toLowerCase().match(/[a-z]+/g)||[]).filter(w=>w.length>2);
+  F.forEach(f=>{const hit=[...new Set(words.filter(w=>f.kw.some(k=>w.startsWith(k))))];if(hit.length){sc[f.id]=(sc[f.id]||0)+hit.length*2;(why[f.id]=why[f.id]||[]).push(`you mentioned “${hit.slice(0,3).join('”, “')}”`)}
+   if(words.some(w=>f.space.toLowerCase().startsWith(w)&&w.length>4)){sc[f.id]=(sc[f.id]||0)+1}});
+  return Object.entries(sc).sort((a,b)=>b[1]-a[1]).slice(0,4).map(([id])=>({f:fr(id),why:why[id]||[]}));
+}
+V.finder=()=>{
+  const res=finder.res;
+  const picks=finder.picks.map(id=>({pid:fr(id).fmt,frag:id}));
+  const sum=picks.reduce((s,x)=>s+UNIT[x.pid],0);
+  return `<div class="wrap" style="padding:40px 20px 60px">
+  <p class="eyebrow">Fragrance finder</p><h1>Find your fragrance</h1><p class="muted" style="margin:10px 0 26px;max-width:620px">Tell us what you need the room to do. We’ll match a scent, explain why, and suggest the right format. Pick 2 or 3 matches to build a combo and get <b>10% off</b>.</p>
+  <div class="finder">
+   <div class="box"><h3>A · Pick up to 3 needs</h3><p class="sm muted" style="margin:4px 0 14px">${finder.needs.length}/3 selected</p>
+    <div class="chips">${NEEDS.map(([n])=>`<button class="chip ${finder.needs.includes(n)?'on':''}" data-a="need" data-n="${esc(n)}">${n}</button>`).join('')}</div></div>
+   <div class="box"><h3>B · Or describe it</h3><p class="sm muted" style="margin:4px 0 14px">e.g. “something relaxing for my bedroom and meditation”</p>
+    <textarea id="ftext" rows="3" placeholder="Describe the mood, room or moment…">${esc(finder.text)}</textarea></div>
+  </div>
+  <div class="center" style="margin:22px 0 34px"><button class="btn terra" data-a="find">Show my matches</button></div>
+  ${res?(res.length?`<h2 style="margin-bottom:16px">Your matches</h2><div style="display:grid;gap:14px">${res.map(({f,why})=>{const on=finder.picks.includes(f.id);return `<div class="res ${on?'on':''}"><div class="art">${art(f.fmt,[f.id])}</div><div>
+     <div class="row sb wr"><h3>${f.name}</h3><span class="pill sage">${f.mood}</span></div>
+     <p class="muted sm" style="margin:4px 0">${f.note}</p>
+     <p class="sm"><b>Why it fits:</b> ${why.length?'Because '+why.join(' and ')+', ':''}${f.name} is a ${f.mood.toLowerCase()} scent made for the ${f.space.toLowerCase()} and ${f.occasion.toLowerCase()}.</p>
+     <p class="sm" style="margin:6px 0 10px"><b>Recommended:</b> ${UNAME[f.fmt]} — ${inr(UNIT[f.fmt])}</p>
+     <div class="row wr"><label class="check"><input type="checkbox" data-pick="${f.id}" ${on?'checked':''}> Add to my combo</label><a href="${purl(f.fmt,f.id)}" class="link sm">View product</a></div>
+    </div></div>`}).join('')}</div>
+    <div class="combo-bar"><div><b>Custom combo:</b> ${picks.length} of 2–3 picked${picks.length>=2?` · <span class="strike" style="color:#9aa">${inr(sum)}</span> <b>${inr(Math.round(sum*(1-CONFIG.comboOff)))}</b> (10% off)`:''}</div>
+     <button class="btn terra sm" data-a="addcombo" ${picks.length<2||picks.length>3?'disabled':''}>Add combo to cart</button></div>`
+   :`<div class="empty">No direct match yet. Try words like <b>sleep, focus, cozy, fresh, meditation, guests</b> — or pick a need on the left.</div>`):''}
+  </div>`;
+};
+V.cart=()=>{
+  const t=totals();
+  if(!S.cart.length)return `<div class="wrap" style="padding:60px 20px"><div class="empty"><h2 style="color:var(--ink)">Your cart is empty</h2><p style="margin:8px 0 16px">Find a scent that fits your mood.</p><a href="/shop" class="btn">Shop all</a></div></div>`;
+  return `<div class="wrap cart-pg"><div><h1 style="margin-bottom:18px">Your cart</h1>${progress()}${S.cart.map(l=>lineHtml(l)).join('')}
+   <div class="box" style="margin-top:22px"><label for="gift">Add a handwritten gift message — free</label><textarea id="gift" rows="3" maxlength="240" placeholder="Write your message — we’ll handwrite it on a note card">${esc(S.gift)}</textarea><p class="hint muted">Up to 240 characters.</p></div></div>
+   <div class="sticky box"><h3 style="margin-bottom:12px">Order summary</h3>${summary(t)}<a href="/checkout" class="btn terra block" style="margin-top:14px">Proceed to checkout</a><p class="sm muted center" style="margin-top:10px">Delivery in 3–7 business days</p></div></div>`;
+};
+V.checkout=()=>{
+  if(!S.cart.length){setTimeout(()=>go('/cart'));return ''}
+  const t=totals(),a=S.profile||{};
+  const from=addBiz(Date.now(),3),to=addBiz(Date.now(),7);
+  return `<div class="wrap cart-pg"><form id="checkout" novalidate><h1 style="margin-bottom:18px">Checkout</h1>
+   <div class="box"><h3 style="margin-bottom:14px">Contact & delivery address</h3>
+    <div class="two"><div class="fld"><label>Full name *</label><input name="name" value="${esc(a.name)}" required autocomplete="name"></div><div class="fld"><label>Mobile number *</label><input name="phone" value="${esc(a.phone)}" inputmode="numeric" maxlength="10" placeholder="10-digit mobile" required autocomplete="tel-national"></div></div>
+    <div class="fld"><label>Email</label><input name="email" type="email" value="${esc(a.email)}" placeholder="For your order confirmation" autocomplete="email"></div>
+    <div class="fld"><label>Address *</label><textarea name="address" rows="2" required placeholder="House no., street, area, landmark" autocomplete="street-address">${esc(a.address)}</textarea></div>
+    <div class="two"><div class="fld"><label>City *</label><input name="city" value="${esc(a.city)}" required autocomplete="address-level2"></div><div class="fld"><label>State *</label><select name="state" required><option value="">Select state</option>${STATES.map(s=>`<option ${a.state===s?'selected':''}>${s}</option>`).join('')}</select></div></div>
+    <div class="fld" style="max-width:260px"><label>Pincode *</label><input name="pin" id="pin" value="${esc(a.pin)}" inputmode="numeric" maxlength="6" placeholder="6-digit pincode" required><p class="hint" id="pinhint"></p></div>
+   </div>
+   <div class="box" style="margin-top:18px"><h3 style="margin-bottom:14px">Payment</h3><div class="pay">
+    <label class="payo"><input type="radio" name="pay" value="cod" checked><span><b>Cash on Delivery</b><span class="sm muted">Pay in cash or UPI when your order arrives.</span></span></label>
+    ${CONFIG.upi?`<label class="payo"><input type="radio" name="pay" value="upi"><span><b>Pay by UPI</b><span class="sm muted">Pay ${inr(t.total)} to <b>${esc(CONFIG.upi)}</b> from any UPI app after placing your order. We ship once payment is confirmed.</span></span></label>`:''}
+   </div></div>
+   <details style="margin-top:12px"><summary>Review items (${S.cart.reduce((s,l)=>s+l.qty,0)})</summary><div>${S.cart.map(l=>`<div class="row sb sm" style="padding:4px 0"><span>${l.qty} × ${esc(l.name)} — ${l.frags.map(f=>fr(f).name).join(', ')}</span><b>${inr(l.unit*l.qty)}</b></div>`).join('')}${S.gift?`<p class="sm" style="margin-top:8px"><b>Gift note:</b> “${esc(S.gift)}”</p>`:''}</div></details>
+   <p class="hint err" id="cerr" style="margin-top:10px"></p>
+  </form>
+  <div class="sticky box"><h3 style="margin-bottom:12px">Order summary</h3>${summary(t)}<p class="sm" style="margin:12px 0"><b>Estimated delivery:</b> ${fmtDate(from)} – ${fmtDate(to)}</p><button class="btn terra block" data-a="place">Place order · ${inr(t.total)}</button><a href="/cart" class="btn ghost block sm" style="margin-top:8px">Back to cart</a></div></div>`;
+};
+function waMsg(o){return `Hi EcoGlow! New order ${o.id}\n\n${o.lines.map(l=>`${l.qty} × ${l.name} (${l.frags.map(f=>fr(f).name).join(', ')}) — ${inr(l.unit*l.qty)}`).join('\n')}\n\nTotal: ${inr(o.total)} · Payment: ${o.pay==='upi'?'UPI':'Cash on Delivery'}${o.gift?`\nGift note: "${o.gift}"`:''}\n\nDeliver to:\n${o.addr.name}, ${o.addr.phone}\n${o.addr.address}, ${o.addr.city}, ${o.addr.state} - ${o.addr.pin}`}
+V.order=(id,q)=>{
+  const o=S.orders.find(x=>x.id===id);if(!o)return V.notfound();
+  const si=statusIdx(o),del=si===4;
+  const items=[];o.lines.forEach(l=>{if(l.combo)l.combo.forEach(x=>items.push(x.pid));else items.push(l.pid)});
+  const uniq=[...new Set(items)];
+  return `<div class="wrap" style="padding-bottom:60px">
+  ${q.get('new')?`<div class="ok-banner"><div class="tick">✓</div><div><h2>Thank you — your order is placed!</h2><p class="muted">Order <b>${o.id}</b> · ${new Date(o.at).toLocaleString('en-IN',{dateStyle:'medium',timeStyle:'short'})}</p></div></div>`:`<div style="padding-top:30px"><a href="/orders" class="link sm">← All orders</a><h1 style="margin:8px 0 18px">Order ${o.id}</h1></div>`}
+  ${CONFIG.whatsapp&&q.get('new')?`<div class="note" style="margin-bottom:18px"><b>One last step:</b> send your order to us on WhatsApp so we can confirm it. <a class="btn sm terra" style="margin-left:8px" target="_blank" rel="noopener" href="https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(waMsg(o))}">Send on WhatsApp</a></div>`:''}
+  ${o.pay==='upi'&&CONFIG.upi&&si<2?`<div class="note" style="margin-bottom:18px">Pay <b>${inr(o.total)}</b> to UPI ID <b>${esc(CONFIG.upi)}</b> with <b>${o.id}</b> in the note. <a class="link" href="upi://pay?pa=${encodeURIComponent(CONFIG.upi)}&pn=EcoGlow&am=${o.total}&cu=INR&tn=${o.id}">Open UPI app</a></div>`:''}
+  <div class="box"><div class="row sb wr"><h3>Order status</h3><span class="pill ${del?'sage':'terra'}">${STEPS[si]}</span></div>
+   <div class="tl">${STEPS.map((s,i)=>`<div class="${i<=si?'done':''}">${s}</div>`).join('')}</div>
+   <p class="sm muted">Estimated delivery: ${fmtDate(addBiz(o.at,3))} – ${fmtDate(addBiz(o.at,7))}</p></div>
+  <div class="cart-pg" style="padding-top:20px"><div class="box"><h3 style="margin-bottom:8px">Items</h3>${o.lines.map(l=>`<div class="line"><div class="th">${l.combo?art('combo',{parts:l.combo}):art(l.pid,l.frags)}</div><div><h4>${esc(l.name)}</h4><div class="muted sm">${l.combo?l.combo.map(x=>UNAME[x.pid]+' · '+fr(x.frag).name).join('<br>'):l.frags.map(f=>fr(f).name).join(', ')}</div><div class="sm">Qty ${l.qty} × ${inr(l.unit)}</div></div><b>${inr(l.unit*l.qty)}</b></div>`).join('')}
+    <h3 style="margin:22px 0 6px">Review your products</h3>${uniq.map(pid=>{const done=S.reviews.some(r=>r.oid===o.id&&r.pid===pid);return `<div class="row sb" style="padding:8px 0;border-bottom:1px solid var(--sand)"><span>${gp(pid).name}</span>${done?'<span class="pill sage">Reviewed ✓</span>':del?`<button class="btn sm" data-a="rv" data-o="${o.id}" data-p="${pid}">Write a review</button>`:'<span class="sm muted">Available after delivery</span>'}</div>`}).join('')}
+   </div>
+   <div class="sticky"><div class="box">${summary(o)}<p class="sm" style="margin-top:12px"><b>Payment:</b> ${o.pay==='upi'?'UPI':'Cash on Delivery'}</p>${o.gift?`<p class="sm"><b>Gift note:</b> “${esc(o.gift)}”</p>`:''}</div>
+    <div class="box" style="margin-top:14px"><h3 style="margin-bottom:6px">Delivering to</h3><p class="sm">${esc(o.addr.name)} · ${esc(o.addr.phone)}<br>${esc(o.addr.address)}<br>${esc(o.addr.city)}, ${esc(o.addr.state)} – ${esc(o.addr.pin)}</p></div>
+    <button class="btn ghost block" style="margin-top:14px" data-a="reorder" data-o="${o.id}">Order again</button></div></div></div>`;
+};
+V.orders=()=>`<div class="wrap" style="padding:40px 20px 60px"><h1 style="margin-bottom:20px">My orders</h1>
+  ${S.orders.length?`<div class="olist">${S.orders.map(o=>{const si=statusIdx(o);return `<div class="ocard"><div><b>${o.id}</b><p class="sm muted">${fmtDate(o.at)} · ${o.lines.reduce((s,l)=>s+l.qty,0)} item(s) · ${inr(o.total)}</p></div><span class="pill ${si===4?'sage':'terra'}">${STEPS[si]}</span><div class="row"><button class="btn ghost sm" data-a="reorder" data-o="${o.id}">Reorder</button><a href="/order/${o.id}" class="btn sm">View</a></div></div>`}).join('')}</div>`
+  :`<div class="empty">You haven’t placed any orders yet. <a href="/shop" class="link">Start shopping</a></div>`}
+  <p class="sm muted" style="margin-top:16px">Orders are saved on this device and browser.</p></div>`;
+V.wishlist=()=>{const l=S.wish.map(gp).filter(Boolean);return `<div class="wrap" style="padding:40px 20px 60px"><h1 style="margin-bottom:20px">Wishlist</h1>${l.length?`<div class="grid">${l.map(p=>card(p)).join('')}</div>`:`<div class="empty">Nothing saved yet. Tap the heart on any product to save it here.</div>`}</div>`};
+V.about=()=>`<div class="prose"><p class="eyebrow">Our story</p><h1>Home fragrance, chosen for your mood</h1>
+  <div style="border-radius:22px;overflow:hidden;margin:24px 0">${art('about')}</div>
+  <p>EcoGlow began with a simple idea: the way a room smells changes the way it feels. A bedroom that smells of lavender slows you down. A desk that smells of lemongrass helps you focus. So instead of choosing a candle by its name, we help you choose it by the mood you want.</p>
+  <h2>Made with vegan soy wax</h2><p>Every candle is hand-poured in small batches using 100% soy wax — a plant-based wax made from soybeans. No paraffin, no beeswax, no animal ingredients. That means EcoGlow candles are fully vegan.</p>
+  <h2>Thoughtful materials</h2><ul><li><b>Lead-free cotton wicks</b> for a steady, clean flame.</li><li><b>Reusable vessels</b> — ceramic for our Mini candles, amber glass for our Classics, frosted glass for diffusers.</li><li><b>Kraft-paper packaging</b> for our gift boxes.</li></ul>
+  <h2>Eight fragrances, eight moods</h2><p>${F.map(f=>`<b>${f.name}</b> (${f.mood.toLowerCase()})`).join(', ')}.</p>
+  <p><a href="/finder" class="btn terra">Find your fragrance</a></p></div>`;
+V.delivery=()=>`<div class="prose"><p class="eyebrow">Shipping & returns</p><h1>Delivery & returns</h1>
+  <h2>Delivery charges</h2><ul><li><b>Flat ₹49</b> delivery anywhere in India.</li><li><b>Free delivery</b> on orders of ₹999 and above (after any combo discount).</li></ul>
+  <h2>Delivery time</h2><p>Orders are usually delivered in <b>3–7 business days</b>. You’ll see an estimated delivery window at checkout and on your order page.</p>
+  <h2>Payment</h2><p>Cash on Delivery is available on all orders${CONFIG.upi?', and you can also pay by UPI':''}.</p>
+  <h2>Damaged or wrong items</h2><p>Candles and diffusers are fragile. If anything arrives damaged or incorrect, contact us within <b>48 hours of delivery</b> with your order ID and a photo, and we’ll arrange a replacement.</p>
+  <h2>Returns</h2><p>Because candles and fragrance products are personal-care items, we can’t accept returns of used or opened products. Unopened items can be returned within 7 days of delivery — <a href="/contact" class="link">get in touch</a> first.</p></div>`;
+V.faq=()=>`<div class="prose"><p class="eyebrow">Help</p><h1>Frequently asked questions</h1>${FAQ.map(([c,qs])=>`<h2>${c}</h2>${qs.map(([qq,a])=>`<details><summary>${qq}</summary><p>${a}</p></details>`).join('')}`).join('')}
+  <p style="margin-top:30px">Still have a question? <a href="/contact" class="link">Contact us</a>.</p></div>`;
+V.blog=(slug)=>{
+  if(slug){const b=BLOG.find(x=>x.slug===slug);if(!b)return V.notfound();return `<article class="prose"><a href="/blog" class="link sm">← All articles</a><p class="eyebrow" style="margin-top:14px">${fmtDate(b.date)}</p><h1>${b.title}</h1><div style="border-radius:20px;overflow:hidden;margin:22px 0">${art(b.art[0],b.art[1])}</div>${b.body}
+   <div class="note" style="margin-top:30px">Ready to try it? <a href="/shop" class="link">Shop vegan soy candles</a> or <a href="/finder" class="link">find your fragrance</a>.</div></article>`}
+  return `<div class="wrap" style="padding:40px 20px 60px"><p class="eyebrow">The EcoGlow journal</p><h1 style="margin-bottom:24px">Candle care & fragrance guides</h1><div class="grid">${BLOG.slice().reverse().map(b=>`<a class="post card" href="/blog/${b.slug}"><div class="card-img">${art(b.art[0],b.art[1])}</div><div class="b"><p class="eyebrow">${fmtDate(b.date)}</p><h3>${b.title}</h3><p class="muted sm">${b.ex}</p><p class="link sm" style="margin-top:10px">Read article →</p></div></a>`).join('')}</div></div>`;
+};
+V.contact=()=>`<div class="prose"><p class="eyebrow">Support</p><h1>Contact us</h1><p>Questions about an order, a fragrance or a bulk gifting order? Send us a message.</p>
+  <div class="row wr" style="margin:16px 0 24px">${CONFIG.email?`<a class="btn ghost sm" href="mailto:${CONFIG.email}">✉ ${CONFIG.email}</a>`:''}${CONFIG.phone?`<a class="btn ghost sm" href="tel:${CONFIG.phone.replace(/\s/g,'')}">☎ ${CONFIG.phone}</a>`:''}${CONFIG.whatsapp?`<a class="btn sm" target="_blank" rel="noopener" href="https://wa.me/${CONFIG.whatsapp}">WhatsApp support</a>`:''}</div>
+  <form id="contact" class="box"><div class="two"><div class="fld"><label>Name *</label><input name="name" required></div><div class="fld"><label>Email *</label><input name="email" type="email" required></div></div>
+  <div class="fld"><label>Order ID (optional)</label><input name="order" placeholder="e.g. EG-84920"></div><div class="fld"><label>Message *</label><textarea name="msg" rows="4" required></textarea></div><button class="btn">Send message</button></form></div>`;
+V.privacy=()=>`<div class="prose"><p class="eyebrow">Legal</p><h1>Privacy Policy</h1><p class="muted">Last updated: 25 October 2026</p>
+  <h2>What we collect</h2><p>When you place an order we collect your name, mobile number, email (optional) and delivery address, so we can deliver your order and contact you about it.</p>
+  <h2>Where it is stored</h2><p>Your cart, wishlist, orders and reviews are saved in your own browser on this device. You can clear them at any time by clearing your browser's site data.</p>
+  <h2>Analytics and advertising</h2><p>We may use Google Analytics and Google Ads to understand how visitors use the site and to measure our ads. These services use cookies. You can opt out using Google's <a class="link" href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">browser opt-out add-on</a> or your Google <a class="link" href="https://adssettings.google.com" target="_blank" rel="noopener">Ad Settings</a>.</p>
+  <h2>What we never do</h2><p>We do not sell your personal information, and we only share delivery details with our courier partners.</p>
+  <h2>Contact</h2><p>For any privacy question, use our <a class="link" href="/contact">contact page</a>.</p></div>`;
+V.terms=()=>`<div class="prose"><p class="eyebrow">Legal</p><h1>Terms & Conditions</h1><p class="muted">Last updated: 25 October 2026</p>
+  <h2>Products and prices</h2><p>All prices are in Indian Rupees (₹). Product photos are for illustration; hand-poured candles can vary slightly in colour and finish.</p>
+  <h2>Orders and payment</h2><p>An order is confirmed once we accept it. Cash on Delivery is available across India. We may cancel an order if an item becomes unavailable, and will tell you if we do.</p>
+  <h2>Delivery</h2><p>Flat ₹49 delivery, free on orders of ₹999 and above. Delivery usually takes 3–7 business days. See <a class="link" href="/delivery">Delivery & Returns</a>.</p>
+  <h2>Candle safety</h2><p>Never leave a burning candle unattended. Keep away from children, pets, drafts and anything flammable. Burn for no more than 4 hours at a time.</p>
+  <h2>Reviews</h2><p>Only customers with a delivered order can post a review. We do not edit reviews to change their meaning.</p></div>`;
+V.notfound=()=>`<div class="wrap" style="padding:80px 20px"><div class="empty"><h2 style="color:var(--ink)">Page not found</h2><a href="/" class="btn" style="margin-top:14px">Go home</a></div></div>`;
+
+/* ---------------- ROUTER ---------------- */
+let lastPath=null;
+const SITE=CONFIG.site.replace(/\/$/,'');
+const ogImg=k=>`https://images.unsplash.com/${PHOTO[k]||PHOTO.hero}?auto=format&fit=crop&w=1200&h=630&q=75`;
+const cut=d=>d.length>158?d.slice(0,155).replace(/[\s,.;—-]+\S*$/,'')+'…':d;
+function headFor(r,parts){
+  const B='EcoGlow',p=r==='product'&&gp(parts[1]),b=r==='blog'&&parts[1]&&BLOG.find(x=>x.slug===parts[1]);
+  const org={'@type':'Organization','@id':SITE+'/#org',name:B,url:SITE+'/',logo:SITE+'/favicon.svg',email:CONFIG.email,telephone:CONFIG.phone,contactPoint:{'@type':'ContactPoint',contactType:'customer support',email:CONFIG.email,telephone:CONFIG.phone,areaServed:'IN',availableLanguage:['en','hi']},description:'Hand-poured 100% vegan soy candles and reed diffusers in 8 mood-led fragrances.'};
+  if(p){const imgs=[ogImg(p.id)];return {t:`${p.name}${p.size?' ('+p.size+')':''} — Vegan Soy ${p.id==='diffuser'?'Reed Diffuser':p.type==='set'?'Candle Set':'Candle'} | ${B}`,d:cut(`${p.short} ${inr(p.price)}. 100% vegan soy wax, 8 fragrances, delivered across India.`),img:imgs[0],type:'product',
+    ld:[{'@context':'https://schema.org','@type':'Product',name:p.name,sku:'EG-'+p.id.toUpperCase(),image:imgs,description:p.short+' '+p.specs.join('. ')+'.',brand:{'@type':'Brand',name:B},
+      offers:{'@type':'Offer',url:SITE+purl(p.id),priceCurrency:'INR',price:String(p.price),availability:'https://schema.org/InStock',itemCondition:'https://schema.org/NewCondition',
+        shippingDetails:{'@type':'OfferShippingDetails',shippingRate:{'@type':'MonetaryAmount',value:'49',currency:'INR'},shippingDestination:{'@type':'DefinedRegion',addressCountry:'IN'},deliveryTime:{'@type':'ShippingDeliveryTime',handlingTime:{'@type':'QuantitativeValue',minValue:1,maxValue:2,unitCode:'DAY'},transitTime:{'@type':'QuantitativeValue',minValue:3,maxValue:7,unitCode:'DAY'}}}}},
+      {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Shop',item:SITE+'/shop'},{'@type':'ListItem',position:2,name:p.name,item:SITE+purl(p.id)}]}]}}
+  if(b)return {t:`${b.title} | ${B} Journal`,d:b.ex,img:ogImg(b.art[0]),type:'article',ld:[{'@context':'https://schema.org','@type':'BlogPosting',headline:b.title,description:b.ex,datePublished:b.date,image:ogImg(b.art[0]),author:{'@type':'Organization',name:B},publisher:{'@id':SITE+'/#org'},mainEntityOfPage:SITE+'/blog/'+b.slug}]};
+  const M={
+   home:['EcoGlow — Vegan Soy Candles & Reed Diffusers Online in India','Hand-poured 100% vegan soy candles and reed diffusers in 8 mood-led fragrances. From ₹199. Flat ₹49 delivery across India, free on orders over ₹999.'],
+   shop:[parts[1]==='sets'?'Candle Gift Sets & Bundles — Soy Candle Gift Boxes | EcoGlow':parts[1]==='single'?'Soy Candles & Reed Diffusers — Shop Individual | EcoGlow':'Shop Vegan Soy Candles, Reed Diffusers & Gift Sets | EcoGlow','Shop hand-poured vegan soy candles (80g, 150g), reed diffusers and curated gift sets from ₹199. Choose from 8 fragrances. Delivery across India.'],
+   finder:['Find Your Fragrance — Candle Scent Quiz | EcoGlow','Pick a mood or describe your room and get a matched candle or diffuser scent, with why it fits. Build a 2–3 item combo and save 10%.'],
+   about:['Our Story — Hand-poured Vegan Soy Candles | EcoGlow','Why EcoGlow uses 100% vegan soy wax, lead-free cotton wicks and reusable vessels — and how we match fragrance to mood.'],
+   delivery:['Delivery & Returns — ₹49 Flat, Free over ₹999 | EcoGlow','EcoGlow ships across India in 3–7 business days. Flat ₹49 delivery, free on orders of ₹999 and above. Cash on Delivery available.'],
+   faq:['FAQ — Soy Candle Care, Burn Time & Shipping | EcoGlow','Answers on vegan soy wax, first burn, wick trimming, gift sets, combo discounts, delivery and support.'],
+   blog:['Candle Care Blog — Tunneling, Wick Trimming & Scent Guides | EcoGlow','Practical guides to making soy candles burn better and choosing the right fragrance for each room.'],
+   contact:['Contact EcoGlow — Order Help & Gifting Enquiries','Questions about an order, a fragrance or bulk gifting? Get in touch with EcoGlow.'],
+   privacy:['Privacy Policy | EcoGlow','How EcoGlow collects, uses and protects your information.'],
+   terms:['Terms & Conditions | EcoGlow','Terms for buying from the EcoGlow online store.']};
+  const m=M[r]||[{cart:'Your Cart',checkout:'Checkout',orders:'My Orders',order:'Order Details',wishlist:'Wishlist'}[r]?`${{cart:'Your Cart',checkout:'Checkout',orders:'My Orders',order:'Order Details',wishlist:'Wishlist'}[r]} | ${B}`:'Page Not Found | '+B,'EcoGlow vegan soy candles.'];
+  const ld=r==='home'?[{'@context':'https://schema.org',...org},{'@context':'https://schema.org','@type':'WebSite',name:B,url:SITE+'/'}]
+    :r==='faq'?[{'@context':'https://schema.org','@type':'FAQPage',mainEntity:FAQ.flatMap(c=>c[1]).map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))}]:[];
+  return {t:m[0],d:m[1],img:ogImg(r==='about'?'about':'hero'),type:'website',ld,noindex:!M[r]};
+}
+function setHead(h,path){
+  const tag=(sel,make)=>{let e=document.head.querySelector(sel);if(!e){e=make();document.head.appendChild(e)}return e};
+  const meta=(attr,key,val)=>{const e=tag(`meta[${attr}="${key}"]`,()=>{const m=document.createElement('meta');m.setAttribute(attr,key);return m});e.setAttribute('content',val)};
+  document.title=h.t;meta('name','description',h.d);
+  meta('name','robots',h.noindex?'noindex,follow':'index,follow,max-image-preview:large');
+  const url=SITE+(path==='/'?'/':path.replace(/\/$/,''));
+  tag('link[rel="canonical"]',()=>{const l=document.createElement('link');l.rel='canonical';return l}).href=url;
+  meta('property','og:site_name','EcoGlow');meta('property','og:type',h.type);meta('property','og:title',h.t);meta('property','og:description',h.d);meta('property','og:url',url);meta('property','og:image',h.img);meta('property','og:locale','en_IN');
+  meta('name','twitter:card','summary_large_image');meta('name','twitter:title',h.t);meta('name','twitter:description',h.d);meta('name','twitter:image',h.img);
+  document.head.querySelectorAll('script[type="application/ld+json"]').forEach(e=>e.remove());
+  (h.ld||[]).forEach(o=>{const e=document.createElement('script');e.type='application/ld+json';e.textContent=JSON.stringify(o);document.head.appendChild(e)});
+}
+function go(url){history.pushState(null,'',url);render()}
+function render(){
+  const path=location.pathname.replace(/\/index(\.html)?$/,'/').replace(/\.html$/,'').replace(/(.)\/$/,'$1')||'/';
+  const parts=path.slice(1).split('/');const q=new URLSearchParams(location.search);
+  let r=parts[0]||'home';if(!V[r])r='notfound';
+  if(r==='product'&&!gp(parts[1]))r='notfound';
+  $('#app').innerHTML=V[r](parts[1],q);
+  setHead(headFor(r,parts),path);
+  if(path!==lastPath){window.scrollTo(0,0);lastPath=path;closeDrawer();$('#nav').classList.remove('open')}
+  document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('act',a.getAttribute('href')===path));
+  if(r==='checkout'){pinCheck();track('begin_checkout')}
+  updateBadges();
+}
+/* ---------------- ANALYTICS (Google Analytics 4 + Google Ads) ---------------- */
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+if(CONFIG.gaId||CONFIG.adsId){const sc=document.createElement('script');sc.async=true;sc.src='https://www.googletagmanager.com/gtag/js?id='+(CONFIG.gaId||CONFIG.adsId);document.head.appendChild(sc);gtag('js',new Date());if(CONFIG.gaId)gtag('config',CONFIG.gaId);if(CONFIG.adsId)gtag('config',CONFIG.adsId)}
+function track(ev,o){
+  if(!(CONFIG.gaId||CONFIG.adsId))return;
+  if(ev==='purchase'&&o){const items=o.lines.map(l=>({item_id:l.pid,item_name:l.name,price:l.unit,quantity:l.qty,item_variant:l.frags.join('/')}));
+    gtag('event','purchase',{transaction_id:o.id,value:o.total,currency:'INR',shipping:o.deliveryFee,items});
+    if(CONFIG.adsId&&CONFIG.adsLabel)gtag('event','conversion',{send_to:CONFIG.adsId+'/'+CONFIG.adsLabel,value:o.total,currency:'INR',transaction_id:o.id});}
+  else if(ev==='add_to_cart'&&o)gtag('event','add_to_cart',{currency:'INR',value:o.price,items:[{item_id:o.id,item_name:o.name,price:o.price}]});
+  else if(ev==='begin_checkout'){const t=totals();if(S.cart.length)gtag('event','begin_checkout',{currency:'INR',value:t.total})}
+}
+function rerender(){const y=window.scrollY;render();window.scrollTo(0,y)}
+function pinCheck(){const i=$('#pin'),h=$('#pinhint');if(!i)return;const v=i.value.trim();
+  if(!v){h.textContent='';return}
+  if(/^[1-9]\d{5}$/.test(v)){h.className='hint ok';h.textContent=`✓ We deliver here · Arrives by ${fmtDate(addBiz(Date.now(),5))} (est.)`}
+  else{h.className='hint err';h.textContent='Enter a valid 6-digit pincode'}}
+
+/* ---------------- ACTIONS ---------------- */
+const A={
+  'cart-open':openDrawer,'cart-close':closeDrawer,mclose:closeModal,
+  menu:()=>$('#nav').classList.toggle('open'),
+  wish:t=>{const id=t.dataset.id,i=S.wish.indexOf(id);if(i>-1)S.wish.splice(i,1);else S.wish.push(id);save();t.classList.toggle('on');toast(i>-1?'Removed from wishlist':'Saved to wishlist');if(location.pathname.startsWith('/wishlist'))rerender()},
+  quick:t=>{const id=t.dataset.id,f=document.querySelector(`[data-qf="${id}"]`).value;addToCart(id,[f],1);toast(`${gp(id).name} · ${fr(f).name} added`);openDrawer()},
+  homef:t=>{homeF=t.dataset.f;rerender()},
+  sclear:()=>{shopF={space:'',max:'',frag:''};rerender()},
+  pickf:t=>{sel.frags[0]=t.dataset.f;rerender()},
+  pq:t=>{sel.qty=Math.max(1,Math.min(20,sel.qty+ +t.dataset.d));rerender()},
+  padd:()=>{if(addSel()){toast('Added to cart');openDrawer()}},
+  pbuy:()=>{if(addSel())go('/checkout')},
+  lq:t=>{const l=S.cart.find(x=>x.key===t.dataset.k);if(!l)return;l.qty+= +t.dataset.d;if(l.qty<1)S.cart=S.cart.filter(x=>x!==l);save();refreshCart()},
+  lx:t=>{S.cart=S.cart.filter(x=>x.key!==t.dataset.k);save();refreshCart();toast('Removed from cart')},
+  need:t=>{const n=t.dataset.n,i=finder.needs.indexOf(n);if(i>-1)finder.needs.splice(i,1);else if(finder.needs.length<3)finder.needs.push(n);else{toast('Pick up to 3 needs');return}rerender()},
+  find:()=>{finder.text=$('#ftext').value;finder.res=findScents(finder.needs,finder.text);finder.picks=finder.picks.filter(id=>finder.res.some(r=>r.f.id===id));rerender();const h=document.querySelector('.res,.empty');h&&h.scrollIntoView({behavior:'smooth',block:'start'})},
+  addcombo:()=>{const parts=finder.picks.map(id=>({pid:fr(id).fmt,frag:id}));if(parts.length<2||parts.length>3)return;addCombo(parts);finder.picks=[];rerender();toast('Combo added — 10% off applied');openDrawer()},
+  place:placeOrder,
+  reorder:t=>{const o=S.orders.find(x=>x.id===t.dataset.o);o.lines.forEach(l=>{if(l.combo)addCombo(l.combo);else addToCart(l.pid,l.frags,l.qty)});toast('Items added to cart');openDrawer()},
+  rv:t=>{rvDraft={rating:0};modal(reviewForm(t.dataset.o,t.dataset.p))},
+  star:t=>{rvDraft.rating=+t.dataset.v;document.querySelectorAll('.starpick button').forEach(b=>b.classList.toggle('on',+b.dataset.v<=rvDraft.rating))}
+};
+function addSel(){const p=gp(sel.id);
+  if(sel.frags.some(f=>!f)){toast('Please choose a fragrance for every scent');return false}
+  if(p.distinct&&new Set(sel.frags).size!==sel.frags.length){toast('Choose 3 different fragrances');return false}
+  addToCart(sel.id,sel.frags.slice(),sel.qty);return true}
+function refreshCart(){if($('#drawer').classList.contains('open'))renderDrawer();if(/^\/(cart|checkout)/.test(location.pathname))rerender()}
+function reviewForm(oid,pid){const p=gp(pid);return `<form id="review" data-o="${oid}" data-p="${pid}"><div class="row sb"><h2>Review ${p.name}</h2><button type="button" class="ib" data-a="mclose" aria-label="Close">✕</button></div><p class="sm muted" style="margin:4px 0 16px">Verified purchase · Order ${oid}</p>
+  <div class="fld"><label>Your rating *</label><div class="starpick">${[1,2,3,4,5].map(v=>`<button type="button" data-a="star" data-v="${v}" aria-label="${v} star">★</button>`).join('')}</div></div>
+  <div class="fld"><label>Headline *</label><input name="title" maxlength="80" required></div>
+  <div class="fld"><label>Your review *</label><textarea name="comment" rows="4" maxlength="800" required></textarea></div>
+  <div class="fld"><label>Scent throw</label><div class="chips">${['Subtle','Balanced','Strong'].map((s,i)=>`<label class="chip" style="margin:0"><input type="radio" name="throw" value="${s}" ${i===1?'checked':''} style="width:auto;margin-right:6px">${s}</label>`).join('')}</div></div>
+  <div class="fld"><label>Display name *</label><input name="author" maxlength="40" value="${esc((S.orders.find(o=>o.id===oid)||{addr:{}}).addr.name||'')}" required></div>
+  <p class="hint err" id="rerr"></p><button class="btn terra block">Submit review</button></form>`}
+function placeOrder(){
+  const f=$('#checkout'),d=Object.fromEntries(new FormData(f).entries()),e=$('#cerr');
+  const errs=[];
+  if(!d.name.trim())errs.push('name');if(!/^[6-9]\d{9}$/.test(d.phone.trim()))errs.push('a valid 10-digit mobile number');
+  if(d.email&&!/^\S+@\S+\.\S+$/.test(d.email))errs.push('a valid email');
+  if(!d.address.trim())errs.push('address');if(!d.city.trim())errs.push('city');if(!d.state)errs.push('state');if(!/^[1-9]\d{5}$/.test(d.pin.trim()))errs.push('a valid pincode');
+  if(errs.length){e.textContent='Please enter '+errs.join(', ')+'.';e.scrollIntoView({behavior:'smooth',block:'center'});return}
+  const finish=()=>{
+    const t=totals();let id;do{id='EG-'+Math.floor(10000+Math.random()*90000)}while(S.orders.some(o=>o.id===id));
+    const addr={name:d.name.trim(),phone:d.phone.trim(),email:d.email.trim(),address:d.address.trim(),city:d.city.trim(),state:d.state,pin:d.pin.trim()};
+    S.orders.unshift({id,at:Date.now(),lines:JSON.parse(JSON.stringify(S.cart)),subtotal:t.subtotal,comboSavings:t.comboSavings,deliveryFee:t.deliveryFee,total:t.total,addr,pay:d.pay,gift:S.gift});
+    S.profile=addr;S.cart=[];S.gift='';save();closeModal();go('/order/'+id+'?new=1');track('purchase',S.orders[0]);
+  };
+  if(d.pay==='cod'){modal(`<h2>Confirm Cash on Delivery</h2><p class="muted" style="margin:10px 0 18px">You’ll pay <b>${inr(totals().total)}</b> when your order arrives. Please keep the exact amount or a UPI app ready.</p><div class="row"><button class="btn terra" id="cod-ok">Confirm order</button><button class="btn ghost" data-a="mclose">Go back</button></div>`);$('#cod-ok').onclick=finish}
+  else finish();
+}
+
+/* ---------------- EVENTS ---------------- */
+document.addEventListener('click',e=>{const t=e.target.closest('[data-a]');if(!t)return;const fn=A[t.dataset.a];if(fn){e.preventDefault();fn(t)}});
+document.addEventListener('change',e=>{const t=e.target;
+  if(t.dataset.slot!==undefined){sel.frags[+t.dataset.slot]=t.value;rerender()}
+  else if(t.dataset.sf){shopF[t.dataset.sf]=t.value;rerender()}
+  else if(t.dataset.pick){const id=t.dataset.pick;if(t.checked){if(finder.picks.length>=3){t.checked=false;toast('A combo can have up to 3 items');return}finder.picks.push(id)}else finder.picks=finder.picks.filter(x=>x!==id);rerender()}
+  else if(t.id==='gift'){S.gift=t.value.trim();save()}});
+document.addEventListener('input',e=>{if(e.target.id==='pin'){e.target.value=e.target.value.replace(/\D/g,'');pinCheck()}if(e.target.name==='phone')e.target.value=e.target.value.replace(/\D/g,'');if(e.target.id==='ftext')finder.text=e.target.value});
+document.addEventListener('submit',e=>{const f=e.target;e.preventDefault();const d=Object.fromEntries(new FormData(f).entries());
+  if(f.id==='review'){const err=$('#rerr');if(!rvDraft.rating){err.textContent='Please choose a star rating.';return}if(!d.title.trim()||!d.comment.trim()||!d.author.trim()){err.textContent='Please fill in all required fields.';return}
+    S.reviews.push({id:'R'+Date.now(),pid:f.dataset.p,oid:f.dataset.o,author:d.author.trim(),rating:rvDraft.rating,title:d.title.trim(),comment:d.comment.trim(),throw:d.throw||'Balanced',date:Date.now()});save();closeModal();rerender();toast('Thanks — your review is live')}
+  else if(f.id==='contact'){if(CONFIG.email){location.href=`mailto:${CONFIG.email}?subject=${encodeURIComponent('Support request'+(d.order?' — '+d.order:''))}&body=${encodeURIComponent(d.msg+'\n\n— '+d.name+' ('+d.email+')')}`;toast('Opening your email app…')}else if(CONFIG.whatsapp){window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(d.msg+(d.order?'\nOrder: '+d.order:'')+'\n— '+d.name)}`,'_blank')}else toast('Support contact coming soon')}
+  else if(f.id==='news'){if(CONFIG.email){location.href=`mailto:${CONFIG.email}?subject=Newsletter%20signup&body=${encodeURIComponent('Please add '+d.email+' to the EcoGlow newsletter.')}`}else toast('Newsletter coming soon');f.reset()}
+  else if(f.id==='checkout')placeOrder();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeModal();closeDrawer()}});
+window.addEventListener('popstate',render);
+document.addEventListener('click',e=>{const a=e.target.closest('a[href^="/"]');if(!a||e.defaultPrevented||a.target||e.metaKey||e.ctrlKey||e.shiftKey||e.button)return;e.preventDefault();const u=a.getAttribute('href');if(u!==location.pathname+location.search)go(u);else if(!$('#nav').classList.contains('open'))window.scrollTo(0,0);$('#nav').classList.remove('open');closeDrawer()});
+document.getElementById('yr').textContent=new Date().getFullYear();
+render();
+</script>
+
+
+</body></html>
