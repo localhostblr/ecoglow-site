@@ -1,5 +1,14 @@
 <!doctype html>
 <html lang="en"><head>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-668HDNJN48"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-668HDNJN48');
+</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Discovery Box — Vegan Soy Candle Set | EcoGlow</title>
@@ -261,7 +270,7 @@ details>div,details>p,details>ul{margin-top:10px;color:var(--muted);font-size:.9
    ========================================================= */
 const CONFIG = {
   site: 'https://ecoglow-seo-site-1.vercel.app',  // your live address, no trailing slash
-  gaId: '',         // Google Analytics 4 ID, e.g. 'G-XXXXXXXXXX'
+  gaId: 'G-668HDNJN48',         // Google Analytics 4 ID, e.g. 'G-XXXXXXXXXX'
   adsId: '',        // Google Ads tag ID, e.g. 'AW-123456789'
   adsLabel: '',     // Google Ads purchase conversion label
 
@@ -736,14 +745,14 @@ function render(){
   if(r==='product'&&!gp(parts[1]))r='notfound';
   $('#app').innerHTML=V[r](parts[1],q);
   setHead(headFor(r,parts),path);
-  if(path!==lastPath){window.scrollTo(0,0);lastPath=path;closeDrawer();$('#nav').classList.remove('open')}
+  if(path!==lastPath){if(lastPath!==null&&CONFIG.gaId)gtag('event','page_view',{page_location:location.href,page_path:path,page_title:document.title});window.scrollTo(0,0);lastPath=path;closeDrawer();$('#nav').classList.remove('open')}
   document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('act',a.getAttribute('href')===path));
   if(r==='checkout'){pinCheck();track('begin_checkout')}
   updateBadges();
 }
 /* ---------------- ANALYTICS (Google Analytics 4 + Google Ads) ---------------- */
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
-if(CONFIG.gaId||CONFIG.adsId){const sc=document.createElement('script');sc.async=true;sc.src='https://www.googletagmanager.com/gtag/js?id='+(CONFIG.gaId||CONFIG.adsId);document.head.appendChild(sc);gtag('js',new Date());if(CONFIG.gaId)gtag('config',CONFIG.gaId);if(CONFIG.adsId)gtag('config',CONFIG.adsId)}
+if((CONFIG.gaId||CONFIG.adsId)&&!document.querySelector('script[src*="googletagmanager.com/gtag"]')){const sc=document.createElement('script');sc.async=true;sc.src='https://www.googletagmanager.com/gtag/js?id='+(CONFIG.gaId||CONFIG.adsId);document.head.appendChild(sc);gtag('js',new Date());if(CONFIG.gaId)gtag('config',CONFIG.gaId);if(CONFIG.adsId)gtag('config',CONFIG.adsId)}
 function track(ev,o){
   if(!(CONFIG.gaId||CONFIG.adsId))return;
   if(ev==='purchase'&&o){const items=o.lines.map(l=>({item_id:l.pid,item_name:l.name,price:l.unit,quantity:l.qty,item_variant:l.frags.join('/')}));
